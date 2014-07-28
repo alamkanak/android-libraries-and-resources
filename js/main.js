@@ -1,5 +1,5 @@
 var $itemsElement;
-var tags = ["Network", "Internet", "Database", "ORM", "Dependency", "Injection", "Image", "Animation", "Fragment", "Action Bar", "REST", "API", "Asynchronous", "Task", "View", "Scroll", "Picker", "Adapter View"];
+var tags = ["Network", "Internet", "Database", "ORM", "Dependency", "Injection", "Image", "Animation", "Fragment", "Action Bar", "REST", "API", "Asynchronous", "Task", "View", "Scroll", "Picker", "Adapter View", "Graph", "Sample App", "Tool", "Cache", "Test", "Widget"];
 var items = [
 	{
 		"title": "Android Asynchronous Http Client",
@@ -11,7 +11,7 @@ var items = [
 	},
 	{
 		"title": "Volley",
-		"tags": ["network", "internet", "API", "asynchronous"],
+		"tags": ["network", "internet", "API", "asynchronous", "cache"],
 		"author": "Google",
 		"description": "Volley is an HTTP library that makes networking for Android apps easier and most importantly, faster. Volley is available through the open AOSP repository.",
 		"home_url": "http://developer.android.com/training/volley/index.html",
@@ -19,7 +19,7 @@ var items = [
 	},
 	{
 		"title": "Picasso",
-		"tags": ["network", "internet", "image", "asynchronous"],
+		"tags": ["network", "internet", "image", "asynchronous", "cache"],
 		"author": "Square",
 		"description": "A powerful image downloading and caching library for Android. Images add much-needed context and visual flair to Android applications. Picasso allows for hassle-free image loading in your application—often in one line of code!",
 		"home_url": "http://square.github.io/picasso/",
@@ -291,34 +291,460 @@ var items = [
 		"author": "splitwise",
 		"description": "TokenAutoComplete is a Android Gmail style token auto-complete text field and filter. It's designed to have an extremely simple API to make it easy for anyone to implement this functionality while still exposing enough customization to let you make it awesome.",
 		"github_url": "https://github.com/splitwise/TokenAutoComplete"
+	},
+	{
+		"title": "Android PagerSlidingTabStrip",
+		"tags": ["view"],
+		"author": "Andreas Stütz",
+		"description": "An interactive indicator to navigate between the different pages of a ViewPager",
+		"github_url": "https://github.com/astuetz/PagerSlidingTabStrip"
+	},
+	{
+		"title": "PanesLibrary",
+		"tags": ["view"],
+		"author": "Kenrick Rilee",
+		"description": "This library makes it ridiculously easy to make native Android apps with multi-pane tablet layouts. On the phone, the app appears as a conventional app with a sliding menu and a content pane where fragments are stacked on top of each other. On the tablet, the menu and all other fragments appear in dynamically added panes of varying sizes.",
+		"github_url": "https://github.com/cricklet/Android-PanesLibrary"
+	},
+	{
+		"title": "Tablelayout",
+		"tags": ["view"],
+		"author": "Esoteric Software",
+		"description": "Table-based layout for Java UI toolkits: libgdx, Swing, Android, TWL",
+		"github_url": "https://github.com/EsotericSoftware/tablelayout"
+	},
+	{
+		"title": "ParallaxViewPager",
+		"tags": ["view"],
+		"author": "andraskindler",
+		"description": "An easy-to-use ViewPager subclass with parallax background effect for Android apps.",
+		"github_url": "https://github.com/andraskindler/parallaxviewpager"
+	},
+	{
+		"title": "ParallaxScrollView",
+		"tags": ["view", "scroll"],
+		"author": "Christopher Jenkins",
+		"description": "A Parallax ScrollView which takes a background and foreground view, in the ParallexScrollView.",
+		"github_url": "https://github.com/chrisjenx/ParallaxScrollView"
+	},
+	{
+		"title": "Calligraphy",
+		"tags": ["view"],
+		"author": "Christopher Jenkins",
+		"description": "Custom fonts in Android the easy way.<br><br>Are you fed up of Custom views to set fonts? Or traversing the ViewTree to find TextViews? Yeah me too.",
+		"github_url": "https://github.com/chrisjenx/Calligraphy"
+	},
+	{
+		"title": "Paralloid",
+		"tags": ["view", "scroll"],
+		"author": "Christopher Jenkins",
+		"description": "Paralloid - (Pah-rah-loid) The Android Parallax library.",
+		"github_url": "https://github.com/chrisjenx/Paralloid"
+	},
+	{
+		"title": "StaggeredGridView",
+		"tags": ["view", "adapter view"],
+		"author": "Maurycy Wojtowicz",
+		"description": "This is a modified version of Android's experimental StaggeredGridView. The StaggeredGridView allows the user to create a GridView with uneven rows similar to how Pinterest looks. Includes own OnItemClickListener and OnItemLongClickListener, selector, and fixed position restore.",
+		"github_url": "https://github.com/maurycyw/StaggeredGridView"
+	},
+	{
+		"title": "GraphView",
+		"tags": ["view", "graph"],
+		"author": "Jonas Gehring",
+		"description": "GraphView is a library for Android to programmatically create flexible and nice-looking diagramms. It is easy to understand, to integrate and to customize it.",
+		"github_url": "https://github.com/jjoe64/GraphView",
+		"home_url": "http://android-graphview.org/"
+	},
+	{
+		"title": "ChartDroid",
+		"tags": ["view", "graph"],
+		"author": "kostmo",
+		"description": "ChartDroid is an Intent-based 'library application' for static chart and graph generation on Android. It can graph/plot/display numerical data in many representations. As a developer, you need only to have your users install the library, then implement a Content Provider according to this simple specification.",
+		"google_url": "https://code.google.com/p/chartdroid/"
+	},
+	{
+		"title": "ChartView",
+		"tags": ["view", "graph"],
+		"author": "nadavfima",
+		"description": "Chart view for android.",
+		"github_url": "https://github.com/nadavfima/ChartView/"
+	},
+	{
+		"title": "AChartEngine",
+		"tags": ["view", "graph"],
+		"author": "4viewsoft",
+		"description": "This is a charting software library for Android applications. Mobile phones, tablets and other gadgets running Android will probably benefit of this charting library.",
+		"home_url": "http://www.achartengine.org/"
+	},
+	{
+		"title": "AndroidPlot",
+		"tags": ["view", "graph"],
+		"author": "AndroidPlot",
+		"description": "AndroidPlot is an API for creating dynamic and static charts within your Android application. It's designed from the ground up for the Android platform, ...",
+		"home_url": "http://androidplot.com",
+		"bitbucket_url": "https://bitbucket.org/androidplot/androidplot"
+	},
+	{
+		"title": "HoloGraphLibrary",
+		"tags": ["view", "graph"],
+		"author": "Daniel Nadeau",
+		"description": "Graph library for android.",
+		"bitbucket_url": "https://bitbucket.org/danielnadeau/holographlibrary"
+	},
+	{
+		"title": "Flot Android Chart",
+		"tags": ["view", "graph"],
+		"author": "ylinfo2, jxmei2",
+		"description": "Flot Android chart is a free charting system making flot works on Android Platform.",
+		"google_url": "https://code.google.com/p/flot-android-chart/"
+	},
+	{
+		"title": "EazeGraph",
+		"tags": ["view", "graph"],
+		"author": "Paul Cech",
+		"description": "EazeGraph is an Android library for creating beautiful and fancy charts. Its main goal was to create a lighweight library which is easy to use and highly customizeable with an 'up-to-date'-look.",
+		"github_url": "https://github.com/blackfizz/EazeGraph"
+	},
+	{
+		"title": "Android Saripaar",
+		"tags": ["validation"],
+		"author": "Ragunath Jawahar",
+		"description": "Android Saripaar is a simple, yet powerful rule-based UI validation library for Android. It is the SIMPLEST validation library available for Android.",
+		"github_url": "https://github.com/ragunathjawahar/android-saripaar"
+	},
+	{
+		"title": "ValidationKomensky for Android",
+		"tags": ["validation"],
+		"author": "Inmite s.r.o.",
+		"description": "A simple library for validating user input in forms using annotations.",
+		"github_url": "https://github.com/inmite/android-validation-komensky"
+	},
+	{
+		"title": "Android-Validator",
+		"tags": ["validation"],
+		"author": "Benjamin Besse",
+		"description": "Form Validator Library for Android",
+		"github_url": "https://github.com/throrin19/Android-Validator"
+	},
+	{
+		"title": "Adjacent Fragment Pager Sample",
+		"tags": ["fragment"],
+		"author": "Jake Wharton",
+		"description": "Demonstrates how to manage two fragments where portrait displays them in a ViewPager and landscape displays them side-by-side.",
+		"github_url": "https://github.com/JakeWharton/adjacent-fragment-pager-sample"
+	},
+	{
+		"title": "Hansel And Gretel",
+		"tags": ["fragment"],
+		"author": "Jake Wharton",
+		"description": "Android library providing bread crumbs to the support library fragments.",
+		"github_url": "https://github.com/JakeWharton/HanselAndGretel"
+	},
+	{
+		"title": "Swipe-to-dismiss + NineOldAndroids",
+		"tags": ["animation", "adapter view"],
+		"author": "Jake Wharton",
+		"description": "Port of Roman Nurik's Swipe-to-dismiss sample code to work on all API levels using NineOldAndroids.",
+		"github_url": "https://github.com/JakeWharton/SwipeToDismissNOA"
+	},
+	{
+		"title": "ActionBarSherlock",
+		"tags": ["action bar"],
+		"author": "Jake Wharton",
+		"description": "Action bar implementation which uses the native action bar on Android 4.0+ and a custom implementation on pre-4.0 through a single API and theme.",
+		"github_url": "https://github.com/JakeWharton/ActionBarSherlock",
+		"home_url": "http://actionbarsherlock.com/"
+	},
+	{
+		"title": "Android ViewPagerIndicator",
+		"tags": ["animation", "view", "fragment"],
+		"author": "Jake Wharton",
+		"description": "Paging indicator widgets compatible with the ViewPager from the Android Support Library and ActionBarSherlock. Originally based on Patrik Åkerfeldt's ViewFlow.",
+		"github_url": "https://github.com/JakeWharton/Android-ViewPagerIndicator",
+		"home_url": "http://viewpagerindicator.com/"
+	},
+	{
+		"title": "Disk LRU Cache",
+		"tags": ["cache"],
+		"author": "Jake Wharton",
+		"description": "Java implementation of a Disk-based LRU cache which specifically targets Android compatibility.",
+		"github_url": "https://github.com/JakeWharton/DiskLruCache",
+		"home_url": "http://jakewharton.github.io/DiskLruCache/"
+	},
+	{
+		"title": "U+2020",
+		"tags": ["dependency", "injection", "sample app"],
+		"author": "Jake Wharton",
+		"description": "A sample Android app which showcases advanced usage of Dagger among other open source libraries.",
+		"github_url": "https://github.com/JakeWharton/u2020"
+	},
+	{
+		"title": "PID Cat",
+		"tags": ["tool"],
+		"author": "Jake Wharton",
+		"description": "Colored logcat script which only shows log entries for a specific application package.",
+		"github_url": "https://github.com/JakeWharton/pidcat"
+	},
+	{
+		"title": "Timber",
+		"tags": ["tool"],
+		"author": "Jake Wharton",
+		"description": "A logger with a small, extensible API which provides utility on top of Android's normal Log class.",
+		"github_url": "https://github.com/JakeWharton/timber",
+		"home_url": "http://jakewharton.github.io/timber/"
+	},
+	{
+		"title": "Scalpel",
+		"tags": ["test"],
+		"author": "Jake Wharton",
+		"description": "A surgical debugging tool to uncover the layers under your app.",
+		"github_url": "https://github.com/JakeWharton/scalpel"
+	},
+	{
+		"title": "Double Espresso",
+		"tags": ["test"],
+		"author": "Jake Wharton",
+		"description": "A pure Gradle port of the Espresso testing utility for Android!",
+		"github_url": "https://github.com/JakeWharton/double-espresso"
+	},
+	{
+		"title": "Paraphrase",
+		"tags": ["tool"],
+		"author": "Jake Wharton",
+		"description": "An experimental Gradle plugin which generates compile-safe format string builders.",
+		"github_url": "https://github.com/JakeWharton/paraphrase"
+	},
+	{
+		"title": "AndroidStaggeredGrid",
+		"tags": ["adapter view", "view"],
+		"author": "Atsy, Inc.",
+		"description": "An Android staggered grid view which supports multiple columns with rows of varying sizes.<br><br>The StaggeredGridView was developed due to requirements for the Etsy app not met by any existing Android libraries. Namely a stable implementation with the ability to have a different number of columns in landscape & portrait, to sync grid position across orientation changes and support for headers & footers.",
+		"github_url": "https://github.com/etsy/AndroidStaggeredGrid"
+	},
+	{
+		"title": "StickyListHeaders",
+		"tags": ["adapter view", "scroll"],
+		"author": "Emil Sjölander",
+		"description": "StickyListHeaders is an Android library that makes it easy to integrate section headers in your ListView. These section headers stick to the top like in the new People app of Android 4.0 Ice Cream Sandwich. This behavior is also found in lists with sections on iOS devices. This library can also be used without the sticky functionality if you just want section headers.",
+		"github_url": "https://github.com/emilsjolander/StickyListHeaders"
+	},
+	{
+		"title": "DragSortListView",
+		"tags": ["adapter view", "animation", "scroll"],
+		"author": "Carl A. Bauer",
+		"description": "Android ListView with drag and drop reordering.",
+		"github_url": "https://github.com/bauerca/drag-sort-listview"
+	},
+	{
+		"title": "ListViewAnimations ",
+		"tags": ["adapter view", "animation", "scroll"],
+		"author": "Niek Haarman",
+		"description": "An Android library which allows developers to easily add animations to ListView items",
+		"github_url": "https://github.com/nhaarman/ListViewAnimations"
+	},
+	{
+		"title": "TwoWayGridView",
+		"tags": ["adapter view", "scroll", "view"],
+		"author": "Jess Anders",
+		"description": "An Android GridView that can be configured to scroll horizontally or vertically.",
+		"github_url": "https://github.com/jess-anders/two-way-gridview"
+	},
+	{
+		"title": "JazzyListView",
+		"tags": ["adapter view", "view"],
+		"author": "Two Toasters",
+		"description": "JazzyListView is an extension of ListView designed to animate list item views as they become visible. There are a number of pre-built, bundled effects that can be used by setting the effect in code or an XML layout attribute. Also, it is possible to use a custom effect by implementing a JazzyEffect.",
+		"github_url": "https://github.com/twotoasters/JazzyListView"
+	},
+	{
+		"title": "Android QuickReturn Listview",
+		"tags": ["adapter view", "scroll"],
+		"author": "Lars Werkman",
+		"description": "This is an implementation of the QuickReturn UI developed by Roman Nurik and Nick Butcher for a listview.",
+		"github_url": "https://github.com/LarsWerkman/QuickReturnListView"
+	},
+	{
+		"title": "Pull To Refresh Views for Android",
+		"tags": ["action bar", "adapter view"],
+		"author": "Chris Banes",
+		"description": "This project aims to provide a reusable Pull to Refresh widget for Android. It was originally based on Johan Nilsson's library (mainly for graphics, strings and animations), but these have been replaced since.",
+		"github_url": "https://github.com/chrisbanes/Android-PullToRefresh"
+	},
+	{
+		"title": "Android-BitmapCache",
+		"tags": ["cache", "image"],
+		"author": "Chris Banes",
+		"description": "Android-BitmapCache is a specialised cache, for use with Android Bitmap objects.",
+		"github_url": "https://github.com/chrisbanes/Android-BitmapCache"
+	},
+	{
+		"title": "PinnedHeaderListView",
+		"tags": ["adapter view", "scroll"],
+		"author": "Jimi Smith",
+		"description": "A ListView with pinned section headers for Android",
+		"github_url": "https://github.com/JimiSmith/PinnedHeaderListView"
+	},
+	{
+		"title": "pinned-section-listview",
+		"tags": ["adapter view", "scroll"],
+		"author": "Sergej Shafarenka",
+		"description": "Easy to use ListView with pinned sections for Android. Pinned section is a header view which sticks to the top of the list until at least one item of that section is visible.",
+		"github_url": "https://github.com/beworker/pinned-section-listview"
+	},
+	{
+		"title": "SlideExpandableListView for Android",
+		"tags": ["adapter view"],
+		"author": "Tjerk Wolterink",
+		"description": "Not happy with the Android ExpandableListView android offers? Want something like the Spotify app. This library allows you to have custom listview in wich each list item has an area that will slide-out once the users clicks on a certain button.",
+		"github_url": "https://github.com/tjerkw/Android-SlideExpandableListView"
+	},
+	{
+		"title": "Android Swipe-to-Dismiss Sample Code",
+		"tags": ["sample app", "adapter view"],
+		"author": "Roman Nurik",
+		"description": "Android swipe-to-dismiss mini-library and sample code",
+		"github_url": "https://github.com/romannurik/Android-SwipeToDismiss",
+		"home_url": "https://plus.google.com/+RomanNurik/posts/Fgo1p5uWZLu"
+	},
+	{
+		"title": "Muzei Live Wallpaper",
+		"tags": ["sample app"],
+		"author": "Roman Nurik",
+		"description": "A living museum for your Android home screen.<br><br>Muzei is a live wallpaper that gently refreshes your home screen each day with famous works of art. It also recedes into the background, blurring and dimming artwork to keep your icons and widgets in the spotlight. Simply double touch the wallpaper or open the Muzei app to enjoy and explore the artwork in its full glory.",
+		"github_url": "https://github.com/romannurik/muzei"
+	},
+	{
+		"title": "Android Month Calendar Widget Demo",
+		"tags": ["sample app", "widget"],
+		"author": "Roman Nurik",
+		"description": "A simple example of a responsive Month Calendar app widget for Android 4.1+.",
+		"github_url": "https://github.com/romannurik/Android-MonthCalendarWidget"
+	},
+	{
+		"title": "Android WizardPager Sample Code",
+		"tags": ["sample app", "fragment"],
+		"author": "Roman Nurik",
+		"description": "Android pager-style wizard flow sample code",
+		"github_url": "https://github.com/romannurik/Android-WizardPager",
+		"home_url": "https://plus.google.com/+RomanNurik/posts/6cVymZvn3f4"
+	},
+	{
+		"title": "Android Asset Studio",
+		"tags": ["tool"],
+		"author": "Roman Nurik",
+		"description": "A web-based set of tools for generating graphics and other assets that would eventually be in an Android application's res/ directory.",
+		"github_url": "https://github.com/romannurik/AndroidAssetStudio",
+		"home_url": "http://romannurik.github.io/AndroidAssetStudio/"
+	},
+	{
+		"title": "",
+		"tags": [""],
+		"author": "",
+		"description": "",
+		"github_url": "",
+		"home_url": "",
+		"google_url": ""
+	},
+	{
+		"title": "",
+		"tags": [""],
+		"author": "",
+		"description": "",
+		"github_url": "",
+		"home_url": "",
+		"google_url": ""
+	},
+	{
+		"title": "",
+		"tags": [""],
+		"author": "",
+		"description": "",
+		"github_url": "",
+		"home_url": "",
+		"google_url": ""
+	},
+	{
+		"title": "",
+		"tags": [""],
+		"author": "",
+		"description": "",
+		"github_url": "",
+		"home_url": "",
+		"google_url": ""
+	},
+	{
+		"title": "",
+		"tags": [""],
+		"author": "",
+		"description": "",
+		"github_url": "",
+		"home_url": "",
+		"google_url": ""
+	},
+	{
+		"title": "",
+		"tags": [""],
+		"author": "",
+		"description": "",
+		"github_url": "",
+		"home_url": "",
+		"google_url": ""
+	},
+	{
+		"title": "",
+		"tags": [""],
+		"author": "",
+		"description": "",
+		"github_url": "",
+		"home_url": "",
+		"google_url": ""
+	},
+	{
+		"title": "",
+		"tags": [""],
+		"author": "",
+		"description": "",
+		"github_url": "",
+		"home_url": "",
+		"google_url": ""
+	},
+	{
+		"title": "",
+		"tags": [""],
+		"author": "",
+		"description": "",
+		"github_url": "",
+		"home_url": "",
+		"google_url": ""
+	},
+	{
+		"title": "",
+		"tags": [""],
+		"author": "",
+		"description": "",
+		"github_url": "",
+		"home_url": "",
+		"google_url": ""
+	},
+	{
+		"title": "",
+		"tags": [""],
+		"author": "",
+		"description": "",
+		"github_url": "",
+		"home_url": "",
+		"google_url": ""
+	},
+	{
+		"title": "",
+		"tags": [""],
+		"author": "",
+		"description": "",
+		"github_url": "",
+		"home_url": "",
+		"google_url": ""
 	}
-	// {
-	// 	"title": "",
-	// 	"tags": [""],
-	// 	"author": "",
-	// 	"description": "",
-	// 	"github_url": "",
-	// 	"home_url": "",
-	// 	"google_url": ""
-	// },
-	// {
-	// 	"title": "",
-	// 	"tags": [""],
-	// 	"author": "",
-	// 	"description": "",
-	// 	"github_url": "",
-	// 	"home_url": "",
-	// 	"google_url": ""
-	// },
-	// {
-	// 	"title": "",
-	// 	"tags": [""],
-	// 	"author": "",
-	// 	"description": "",
-	// 	"github_url": "",
-	// 	"home_url": "",
-	// 	"google_url": ""
-	// }
 ];
 
 
@@ -352,6 +778,7 @@ setupItems = function(){
 		if (items[i].home_url) buttonsString+= '<a href="'+items[i].home_url+'" class="btn btn-primary"><i class="fa fa-home"></i> Homepage</a>';
 		if (items[i].github_url) buttonsString+= '<a href="'+items[i].github_url+'" class="btn btn-primary"><i class="fa fa-github-alt"></i> Github</a>';
 		if (items[i].google_url) buttonsString+= '<a href="'+items[i].google_url+'" class="btn btn-primary"><i class="fa fa-google"></i> Google Code</a>';
+		if (items[i].bitbucket_url) buttonsString+= '<a href="'+items[i].bitbucket_url+'" class="btn btn-primary"><i class="fa fa-bitbucket"></i> Bitbucket</a>';
 
 		// Prepare author html.
 		userString = "";
