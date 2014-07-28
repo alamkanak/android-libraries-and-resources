@@ -78,6 +78,15 @@ header {
   margin-top: 60px;
   margin-bottom: 50px;
 }
+input:focus,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+  outline: 0;
+}
+input:focus {
+  border: 3px solid #00aeef;
+}
 /* ----------------------------------------
 Filters section
 -------------------------------------------*/
