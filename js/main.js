@@ -1,5 +1,5 @@
 var $itemsElement;
-var tags = ["Network", "Internet", "Database", "ORM", "Dependency", "Injection", "Image", "Animation", "Fragment", "Action Bar", "REST", "API", "Asynchronous", "Task", "View", "Scroll", "Picker", "Adapter View", "Graph", "Sample App", "Tool", "Cache", "Test", "Widget"];
+var tags = ["Network", "Internet", "Database", "ORM", "Dependency", "Injection", "Image", "Animation", "Fragment", "Action Bar", "REST", "API", "Asynchronous", "Task", "View", "Scroll", "Picker", "Adapter View", "Graph", "Sample App", "Tool", "Cache", "Test", "Widget", "Time", "Progress", "Navigation", "Rating", "Barcode", "Bus"];
 var items = [
 	{
 		"title": "Android Asynchronous Http Client",
@@ -259,7 +259,7 @@ var items = [
 	},
 	{
 		"title": "TimesSquare for Android",
-		"tags": ["view", "picker"],
+		"tags": ["view", "picker", "time"],
 		"author": "Square",
 		"description": "Standalone Android widget for picking a single date from a calendar view.",
 		"github_url": "https://github.com/square/android-times-square"
@@ -637,114 +637,273 @@ var items = [
 		"github_url": "https://github.com/romannurik/AndroidAssetStudio",
 		"home_url": "http://romannurik.github.io/AndroidAssetStudio/"
 	},
-	// {
-	// 	"title": "",
-	// 	"tags": [""],
-	// 	"author": "",
-	// 	"description": "",
-	// 	"github_url": "",
-	// 	"home_url": "",
-	// 	"google_url": ""
-	// },
-	// {
-	// 	"title": "",
-	// 	"tags": [""],
-	// 	"author": "",
-	// 	"description": "",
-	// 	"github_url": "",
-	// 	"home_url": "",
-	// 	"google_url": ""
-	// },
-	// {
-	// 	"title": "",
-	// 	"tags": [""],
-	// 	"author": "",
-	// 	"description": "",
-	// 	"github_url": "",
-	// 	"home_url": "",
-	// 	"google_url": ""
-	// },
-	// {
-	// 	"title": "",
-	// 	"tags": [""],
-	// 	"author": "",
-	// 	"description": "",
-	// 	"github_url": "",
-	// 	"home_url": "",
-	// 	"google_url": ""
-	// },
-	// {
-	// 	"title": "",
-	// 	"tags": [""],
-	// 	"author": "",
-	// 	"description": "",
-	// 	"github_url": "",
-	// 	"home_url": "",
-	// 	"google_url": ""
-	// },
-	// {
-	// 	"title": "",
-	// 	"tags": [""],
-	// 	"author": "",
-	// 	"description": "",
-	// 	"github_url": "",
-	// 	"home_url": "",
-	// 	"google_url": ""
-	// },
-	// {
-	// 	"title": "",
-	// 	"tags": [""],
-	// 	"author": "",
-	// 	"description": "",
-	// 	"github_url": "",
-	// 	"home_url": "",
-	// 	"google_url": ""
-	// },
-	// {
-	// 	"title": "",
-	// 	"tags": [""],
-	// 	"author": "",
-	// 	"description": "",
-	// 	"github_url": "",
-	// 	"home_url": "",
-	// 	"google_url": ""
-	// },
-	// {
-	// 	"title": "",
-	// 	"tags": [""],
-	// 	"author": "",
-	// 	"description": "",
-	// 	"github_url": "",
-	// 	"home_url": "",
-	// 	"google_url": ""
-	// },
-	// {
-	// 	"title": "",
-	// 	"tags": [""],
-	// 	"author": "",
-	// 	"description": "",
-	// 	"github_url": "",
-	// 	"home_url": "",
-	// 	"google_url": ""
-	// },
-	// {
-	// 	"title": "",
-	// 	"tags": [""],
-	// 	"author": "",
-	// 	"description": "",
-	// 	"github_url": "",
-	// 	"home_url": "",
-	// 	"google_url": ""
-	// },
-	// {
-	// 	"title": "",
-	// 	"tags": [""],
-	// 	"author": "",
-	// 	"description": "",
-	// 	"github_url": "",
-	// 	"home_url": "",
-	// 	"google_url": ""
-	// }
+	{
+		"title": "ExtendedCalendarView",
+		"tags": ["time", "view"],
+		"author": "tyczj",
+		"description": "Currently there is no easy way of showing a calendar with the ability to display events on days, ExtendedCalendarView is meant to solve that problem.",
+		"github_url": "https://github.com/tyczj/ExtendedCalendarView"
+	},
+	{
+		"title": "Discrollview",
+		"tags": ["view", "scroll"],
+		"author": "Flavien Laurent",
+		"description": "Regularly, I am pleasantly surprised by websites using a pattern I called the discrollver pattern. I'm sure you already know what I'm talking about but if not, http://vimeo.com/player is a good example. When you scroll, widgets appear from nowhere by fade, translation or scale.<br><br>With DiscrollView, I wanted to import this pattern on Android. This is an 0.0.1 alpha version because you have to do all the transformation work (fade, translation, scale etc) yourself base on a ratio value. I'm going to add some transformation presets (translation from left to right + fade in for example) to make the library more ready to use for lazy developers.",
+		"github_url": "https://github.com/flavienlaurent/discrollview"
+	},
+	{
+		"title": "DateTimePicker",
+		"tags": ["time", "view"],
+		"author": "Flavien Laurent",
+		"description": "DateTimePicker is a library which contains the beautiful DatePicker and TimePicker that can be seen in the new Google Agenda app.",
+		"github_url": "https://github.com/flavienlaurent/datetimepicker"
+	},
+	{
+		"title": "No boring ActionBar",
+		"tags": ["action bar"],
+		"author": "Flavien Laurent",
+		"description": "News Stand app makes the ActionBar not boring!",
+		"github_url": "https://github.com/flavienlaurent/NotBoringActionBar",
+		"home_url": "http://flavienlaurent.com/blog/2013/11/20/making-your-action-bar-not-boring/"
+	},
+	{
+		"title": "MultiChoiceAdapter",
+		"tags": ["adapter view"],
+		"author": "ManuelPeinado",
+		"description": "MultiChoiceAdapter is an implementation of ListAdapter which adds support for modal multiple choice selection as in the native Gmail app.",
+		"github_url": "https://github.com/ManuelPeinado/MultiChoiceAdapter"
+	},
+	{
+		"title": "android-amazing-listview",
+		"tags": ["adapter view", "scroll"],
+		"author": "yukuku",
+		"description": "Adds new features to Android's ListView widget: section headers (e.g. the one used in built-in Contacts applications showing the list of names), item pagination (loading of next page of items) (e.g. the list of applications on Android Market, the list of emails on Gmail app).",
+		"google_url": "https://code.google.com/p/android-amazing-listview/"
+	},
+	{
+		"title": "ListBuddies",
+		"tags": ["adapter view", "scroll"],
+		"author": "Javier Pardo de Santayana Gómez",
+		"description": "Android library to achieve in an easy way, the behaviour of the home page in the Expedia app, with a pair of auto-scroll circular parallax ListViews.",
+		"github_url": "https://github.com/jpardogo/ListBuddies"
+	},
+	{
+		"title": "FlabbyListView",
+		"tags": ["adapter view", "scroll"],
+		"author": "Javier Pardo de Santayana Gómez",
+		"description": "Android library to display a ListView whose cells are not rigid but flabby and react to ListView scroll.",
+		"github_url": "https://github.com/jpardogo/FlabbyListView"
+	},
+	{
+		"title": "GoogleProgressBar",
+		"tags": ["view", "progress"],
+		"author": "Javier Pardo de Santayana Gómez",
+		"description": "Android library to display progress like google does in some of his services.",
+		"github_url": "https://github.com/jpardogo/GoogleProgressBar"
+	},
+	{
+		"title": "EasyAdapter For Android",
+		"tags": ["adapter view"],
+		"author": "ribot",
+		"description": "Using AdapterViews has never been so easy. Inspired by the view holder design pattern, this library provides an easier way of linking AdapterViews and the underlying data for that view without having to implement your own Adapter. The EasyAdapter will do the tedious work for you.",
+		"github_url": "https://github.com/ribot/easy-adapter"
+	},
+	{
+		"title": "SuperListview",
+		"tags": ["adapter view", "progress"],
+		"author": "Quentin DOMMERC",
+		"description": "This library is making listview way more easy to use. No need to embed the listview in a framelayout to add the progressbar or the emptyview. It's all right here.",
+		"github_url": "https://github.com/dommerq/SuperListview"
+	},
+	{
+		"title": "SherlockNavigationDrawer",
+		"tags": ["view", "navigation"],
+		"author": "Nicolas Jafelle",
+		"description": "SherlockNavigationDrawer is the implementation of the latest Google UX component, Navigation Drawer. It should work exactly as Google Drive plus!! It works with ActionBarSherlock and devices with pre HC.",
+		"github_url": "https://github.com/nicolasjafelle/SherlockNavigationDrawer"
+	},
+	{
+		"title": "RateMeMaybe",
+		"tags": ["rating"],
+		"author": "Kopfgeldjaeger",
+		"description": "Asks the user if (s)he wants to open the Play Store to rate your application when certain requirements are met (see below). This can and should be configured to be very cautious. Don't annoy your users!",
+		"github_url": "https://github.com/Kopfgeldjaeger/RateMeMaybe"
+	},
+	{
+		"title": "AppRater",
+		"tags": ["rating"],
+		"author": "CodeChimp.org",
+		"description": "AppRater is a library for Android designed to facilitate easy prompting of users to rate your app within the Google Play store or Amazon App Store. It won't prompt until at least 3 days or 7 uses of the app has passed and if the user chooses to rate later the count will start again.",
+		"github_url": "https://github.com/codechimp-org/AppRater"
+	},
+	{
+		"title": "AppRate",
+		"tags": ["rating"],
+		"author": "Timothée Jeannin",
+		"description": "A friendly library to prompt your users to rate your app.",
+		"github_url": "https://github.com/TimotheeJeannin/AppRate"
+	},
+	{
+		"title": "Android library to show 'Rate this app' dialog",
+		"tags": ["rating"],
+		"author": "Keisuke Kobayashi",
+		"description": "Android-RateThisApp is an library to show 'Rate this app' dialog.",
+		"github_url": "https://github.com/kskkbys/Android-RateThisApp"
+	},
+	{
+		"title": "Gson",
+		"tags": ["json", "parse"],
+		"author": "Google",
+		"description": "Gson is a Java library that can be used to convert Java Objects into their JSON representation. It can also be used to convert a JSON string to an equivalent Java object. Gson can work with arbitrary Java objects including pre-existing objects that you do not have source-code of.",
+		"google_url": "https://code.google.com/p/google-gson/"
+	},
+	{
+		"title": "Jackson JSON Processor",
+		"tags": ["json", "parse"],
+		"author": "FasterXML, LLC",
+		"description": "Inspired by the quality and variety of XML tooling available for the Java platform (StAX, JAXB, etc.), the Jackson is a multi-purpose Java library for processing JSON data format. Jackson aims to be the best possible combination of fast, correct, lightweight, and ergonomic for developers.",
+		"github_url": "https://github.com/FasterXML/jackson",
+		"home_url": "http://wiki.fasterxml.com/JacksonHome"
+	},
+	{
+		"title": "Joda-Time",
+		"tags": ["time"],
+		"author": "Joda.org",
+		"description": "Joda-Time provides a quality replacement for the Java date and time classes. The design allows for multiple calendar systems, while still providing a simple API. The 'default' calendar is the ISO8601 standard which is used by XML. The Gregorian, Julian, Buddhist, Coptic, Ethiopic and Islamic systems are also included, and we welcome further additions. Supporting classes include time zone, duration, format and parsing.",
+		"github_url": "https://github.com/JodaOrg/joda-time",
+		"home_url": "http://www.joda.org/joda-time/"
+	},
+	{
+		"title": "DATE4J",
+		"tags": ["time"],
+		"author": "Hirondelle Systems",
+		"description": "It's an alternative to Date, Calendar, and related Java classes. The JDK's treatment of dates is likely the single most suctorial aspect of the Java core libraries.",
+		"github_url": "https://github.com/IanDarwin/date4j",
+		"home_url": "http://www.date4j.net/"
+	},
+	{
+		"title": "Android Empty Layout",
+		"tags": ["progress", "adapter view"],
+		"author": "Raquib-ul-Alam Kanak",
+		"description": "A library for showing different types of layouts when a list view is empty. These layouts can be shown when: the list is loading, the list has no item to display, an error occured trying to load items. Loading animation is also supported.",
+		"github_url": "https://github.com/alamkanak/Android-Empty-Layout"
+	},
+	{
+		"title": "ZXing ",
+		"tags": ["barcode"],
+		"author": "ZXing project",
+		"description": "ZXing ('zebra crossing') is an open-source, multi-format 1D/2D barcode image processing library implemented in Java, with ports to other languages.",
+		"github_url": "https://github.com/zxing/zxing"
+	},
+	{
+		"title": "OnBarcode",
+		"tags": ["barcode"],
+		"author": "OnBarcode.com",
+		"description": "Barcode SDKs that acceletate IT automation.",
+		"github_url": "http://www.onbarcode.com/"
+	},
+	{
+		"title": "EventBus",
+		"tags": ["bus"],
+		"author": "greenrobot",
+		"description": "Android optimized event bus that simplifies communication between Activities, Fragments, Threads, Services, etc. Less code, better quality.",
+		"github_url": "https://github.com/greenrobot/EventBus"
+	},
+	{
+		"title": "androidquery",
+		"tags": ["asynchronous", "task"],
+		"author": "Peter Liu",
+		"description": "Android-Query (AQuery) is a light-weight library for doing asynchronous tasks and manipulating UI elements in Android. Our goal is to make Android coding simpler, easier, and more fun!",
+		"github_url": "https://github.com/androidquery/androidquery",
+		"google_url": "https://code.google.com/p/android-query/"
+	},
+	{
+		"title": "Keyczar",
+		"tags": ["security"],
+		"author": "Steve Weis and Arkajit Dey",
+		"description": "Keyczar is an open source cryptographic toolkit designed to make it easier and safer for developers to use cryptography in their applications. Keyczar supports authentication and encryption with both symmetric and asymmetric keys.",
+		"home_url": "http://www.keyczar.org/",
+		"google_url": "https://code.google.com/p/keyczar/"
+	},
+	{
+		"title": "Android Priority Job Queue",
+		"tags": ["asynchronous", "task"],
+		"author": "Path",
+		"description": "A Job Queue specifically written for Android to easily schedule jobs (tasks) that run in the background, improving UX and application stability.",
+		"github_url": "https://github.com/path/android-priority-jobqueue"
+	},
+	{
+		"title": "",
+		"tags": [""],
+		"author": "",
+		"description": "",
+		"github_url": "",
+		"home_url": "",
+		"google_url": ""
+	},
+	{
+		"title": "",
+		"tags": [""],
+		"author": "",
+		"description": "",
+		"github_url": "",
+		"home_url": "",
+		"google_url": ""
+	},
+	{
+		"title": "",
+		"tags": [""],
+		"author": "",
+		"description": "",
+		"github_url": "",
+		"home_url": "",
+		"google_url": ""
+	},
+	{
+		"title": "",
+		"tags": [""],
+		"author": "",
+		"description": "",
+		"github_url": "",
+		"home_url": "",
+		"google_url": ""
+	},
+	{
+		"title": "",
+		"tags": [""],
+		"author": "",
+		"description": "",
+		"github_url": "",
+		"home_url": "",
+		"google_url": ""
+	},
+	{
+		"title": "",
+		"tags": [""],
+		"author": "",
+		"description": "",
+		"github_url": "",
+		"home_url": "",
+		"google_url": ""
+	},
+	{
+		"title": "",
+		"tags": [""],
+		"author": "",
+		"description": "",
+		"github_url": "",
+		"home_url": "",
+		"google_url": ""
+	},
+	{
+		"title": "",
+		"tags": [""],
+		"author": "",
+		"description": "",
+		"github_url": "",
+		"home_url": "",
+		"google_url": ""
+	}
 ];
 
 
@@ -759,7 +918,7 @@ $(document).ready(function() {
 addAllTags = function(){
 	tags.sort();
 	for (var i = 0; i < tags.length; i++) {
-		$(".filters").append('<button class="btn btn-filter" type="button" data-filter=".'+tags[i].replace(/\s/g, "-").toLowerCase()+'">'+tags[i]+'</button>');
+		$(".filters").append('<button class="btn btn-filter" type="button" data-filter="'+tags[i].replace(/\s/g, "-").toLowerCase()+'">'+tags[i]+'</button>');
 	};
 }
 
@@ -800,7 +959,7 @@ addAllItems = function(){
 
 		// Append the html.
 		$("#items").append(
-			'<section class="item mix '+tagsData+'">'+
+			'<section class="item mix" data-group="'+tagsData+'">'+
 				'<a href="'+(items[i].home_url?items[i].home_url:(items[i].github_url?items[i].github_url:items[i].google_url))+'" class="item-title"><h3>'+items[i].title+'</h3></a>'+
 				userString+
 				'<div class="tags-container meta"><i class="fa fa-tag"></i> <span class="tags">'+tagsString+'</span></div>'+
@@ -824,6 +983,9 @@ setupIsotope = function(){
 setupFilter = function(){
 	$('.btn-filter').on('click', function(){
 
+		// Remove anything that is on the search box.
+		$(".search-input").val("");
+
 		// Check if this button is active or not.
 		isActive = $(this).hasClass("active");
 		if (!isActive) group = $(this).data('filter');
@@ -838,9 +1000,19 @@ setupFilter = function(){
 		$(this).button('toggle');
 
 		// Filter items based on this button.
-		$itemsElement.isotope({
-			filter: group
-		});
+		if (group != "*") {
+			$itemsElement.isotope({
+				filter: function(){
+					groups = $(this).data("group");
+					return groups.indexOf(group) !== -1;
+				}
+			});
+		}
+		else {
+			$itemsElement.isotope({
+				filter: group
+			});
+		}
 	})
 }
 
