@@ -637,133 +637,133 @@ var items = [
 		"github_url": "https://github.com/romannurik/AndroidAssetStudio",
 		"home_url": "http://romannurik.github.io/AndroidAssetStudio/"
 	},
-	{
-		"title": "",
-		"tags": [""],
-		"author": "",
-		"description": "",
-		"github_url": "",
-		"home_url": "",
-		"google_url": ""
-	},
-	{
-		"title": "",
-		"tags": [""],
-		"author": "",
-		"description": "",
-		"github_url": "",
-		"home_url": "",
-		"google_url": ""
-	},
-	{
-		"title": "",
-		"tags": [""],
-		"author": "",
-		"description": "",
-		"github_url": "",
-		"home_url": "",
-		"google_url": ""
-	},
-	{
-		"title": "",
-		"tags": [""],
-		"author": "",
-		"description": "",
-		"github_url": "",
-		"home_url": "",
-		"google_url": ""
-	},
-	{
-		"title": "",
-		"tags": [""],
-		"author": "",
-		"description": "",
-		"github_url": "",
-		"home_url": "",
-		"google_url": ""
-	},
-	{
-		"title": "",
-		"tags": [""],
-		"author": "",
-		"description": "",
-		"github_url": "",
-		"home_url": "",
-		"google_url": ""
-	},
-	{
-		"title": "",
-		"tags": [""],
-		"author": "",
-		"description": "",
-		"github_url": "",
-		"home_url": "",
-		"google_url": ""
-	},
-	{
-		"title": "",
-		"tags": [""],
-		"author": "",
-		"description": "",
-		"github_url": "",
-		"home_url": "",
-		"google_url": ""
-	},
-	{
-		"title": "",
-		"tags": [""],
-		"author": "",
-		"description": "",
-		"github_url": "",
-		"home_url": "",
-		"google_url": ""
-	},
-	{
-		"title": "",
-		"tags": [""],
-		"author": "",
-		"description": "",
-		"github_url": "",
-		"home_url": "",
-		"google_url": ""
-	},
-	{
-		"title": "",
-		"tags": [""],
-		"author": "",
-		"description": "",
-		"github_url": "",
-		"home_url": "",
-		"google_url": ""
-	},
-	{
-		"title": "",
-		"tags": [""],
-		"author": "",
-		"description": "",
-		"github_url": "",
-		"home_url": "",
-		"google_url": ""
-	}
+	// {
+	// 	"title": "",
+	// 	"tags": [""],
+	// 	"author": "",
+	// 	"description": "",
+	// 	"github_url": "",
+	// 	"home_url": "",
+	// 	"google_url": ""
+	// },
+	// {
+	// 	"title": "",
+	// 	"tags": [""],
+	// 	"author": "",
+	// 	"description": "",
+	// 	"github_url": "",
+	// 	"home_url": "",
+	// 	"google_url": ""
+	// },
+	// {
+	// 	"title": "",
+	// 	"tags": [""],
+	// 	"author": "",
+	// 	"description": "",
+	// 	"github_url": "",
+	// 	"home_url": "",
+	// 	"google_url": ""
+	// },
+	// {
+	// 	"title": "",
+	// 	"tags": [""],
+	// 	"author": "",
+	// 	"description": "",
+	// 	"github_url": "",
+	// 	"home_url": "",
+	// 	"google_url": ""
+	// },
+	// {
+	// 	"title": "",
+	// 	"tags": [""],
+	// 	"author": "",
+	// 	"description": "",
+	// 	"github_url": "",
+	// 	"home_url": "",
+	// 	"google_url": ""
+	// },
+	// {
+	// 	"title": "",
+	// 	"tags": [""],
+	// 	"author": "",
+	// 	"description": "",
+	// 	"github_url": "",
+	// 	"home_url": "",
+	// 	"google_url": ""
+	// },
+	// {
+	// 	"title": "",
+	// 	"tags": [""],
+	// 	"author": "",
+	// 	"description": "",
+	// 	"github_url": "",
+	// 	"home_url": "",
+	// 	"google_url": ""
+	// },
+	// {
+	// 	"title": "",
+	// 	"tags": [""],
+	// 	"author": "",
+	// 	"description": "",
+	// 	"github_url": "",
+	// 	"home_url": "",
+	// 	"google_url": ""
+	// },
+	// {
+	// 	"title": "",
+	// 	"tags": [""],
+	// 	"author": "",
+	// 	"description": "",
+	// 	"github_url": "",
+	// 	"home_url": "",
+	// 	"google_url": ""
+	// },
+	// {
+	// 	"title": "",
+	// 	"tags": [""],
+	// 	"author": "",
+	// 	"description": "",
+	// 	"github_url": "",
+	// 	"home_url": "",
+	// 	"google_url": ""
+	// },
+	// {
+	// 	"title": "",
+	// 	"tags": [""],
+	// 	"author": "",
+	// 	"description": "",
+	// 	"github_url": "",
+	// 	"home_url": "",
+	// 	"google_url": ""
+	// },
+	// {
+	// 	"title": "",
+	// 	"tags": [""],
+	// 	"author": "",
+	// 	"description": "",
+	// 	"github_url": "",
+	// 	"home_url": "",
+	// 	"google_url": ""
+	// }
 ];
 
 
 $(document).ready(function() {
-	setupTags();
-	setupItems();
-	setupShuffle();
-	setupFilters();
+	addAllTags();
+	addAllItems();
+	setupIsotope();
+	setupFilter();
 	setupSearch();
 });
 
-setupTags = function(){
+addAllTags = function(){
 	tags.sort();
 	for (var i = 0; i < tags.length; i++) {
-		$(".filters").append('<button class="btn btn-filter" type="button" data-group="'+tags[i].toLowerCase()+'">'+tags[i]+'</button>');
+		$(".filters").append('<button class="btn btn-filter" type="button" data-filter=".'+tags[i].replace(/\s/g, "-").toLowerCase()+'">'+tags[i]+'</button>');
 	};
 }
 
-setupItems = function(){
+addAllItems = function(){
 	// Sort the array.
 	items.sort(function(a,b) { 
 		if (a.title.toLowerCase() < b.title.toLowerCase()) return -1;
@@ -790,17 +790,17 @@ setupItems = function(){
 		if (items[i].tags && items[i].tags.length>0) {
 			for (var j = 0; j < items[i].tags.length; j++) {
 				tagsString += items[i].tags[j];
-				tagsData += items[i].tags[j];
+				tagsData += items[i].tags[j].replace(/\s/g, "-");
 				if (j < items[i].tags.length-1) {
 					tagsString += ", ";
-					tagsData += ",";
+					tagsData += " ";
 				}
 			}
 		}
 
 		// Append the html.
 		$("#items").append(
-			'<section class="item" data-groups="'+tagsData+'">'+
+			'<section class="item mix '+tagsData+'">'+
 				'<a href="'+(items[i].home_url?items[i].home_url:(items[i].github_url?items[i].github_url:items[i].google_url))+'" class="item-title"><h3>'+items[i].title+'</h3></a>'+
 				userString+
 				'<div class="tags-container meta"><i class="fa fa-tag"></i> <span class="tags">'+tagsString+'</span></div>'+
@@ -811,50 +811,59 @@ setupItems = function(){
 	};
 }
 
-setupFilters = function(){
+
+setupIsotope = function(){
+	$itemsElement = $('#items');
+	$itemsElement.isotope({
+		itemSelector: ".item",
+		layoutMode: "masonry"
+	});
+}
+
+
+setupFilter = function(){
 	$('.btn-filter').on('click', function(){
+
+		// Check if this button is active or not.
 		isActive = $(this).hasClass("active");
-		if (!isActive) group = $(this).data('group');
-		else group = 'all';
+		if (!isActive) group = $(this).data('filter');
+		else group = '*';
 
-
+		// Untoggle other buttons.
 		if (!isActive) {
 			$('.filters .active').removeClass('active');
 		}
 
-
+		// Activate this button.
 		$(this).button('toggle');
 
-		$itemsElement.shuffle( 'shuffle', group );
+		// Filter items based on this button.
+		$itemsElement.isotope({
+			filter: group
+		});
 	})
 }
 
-setupShuffle = function(){
-	$itemsElement = $('#items');
-
-	$itemsElement.shuffle({
-		itemSelector: '.item',
-		gutterWidth: 20,
-		delimeter: ","
-	});
-}
 
 setupSearch = function(){
 	$('.search-input').on('keyup change', function() {
+
+		// Get typed string.
 		var val = this.value.toLowerCase();
-		$itemsElement.shuffle('shuffle', function($el, shuffle) {
 
-			// Only search elements in the current group
-			if (shuffle.group !== 'all' && $.inArray(shuffle.group, $el.data('groups')) === -1) {
-				return false;
-			}
-
-			var text1 = $.trim($el.find('.item-title').text()).toLowerCase();
-			var text2 = $.trim($el.find('.tags').text()).toLowerCase();
-			var text3 = $.trim($el.find('.description').text()).toLowerCase();
-			var text4 = $.trim($el.find('.author').text()).toLowerCase();
-			
-			return text1.indexOf(val) !== -1 || text2.indexOf(val) !== -1 || text3.indexOf(val) !== -1 || text4.indexOf(val) !== -1;
+		// Untoggle any button that is active.
+		$('.btn-filter').each(function(){
+			if ($(this).hasClass("active"))
+				$(this).button('toggle');
 		});
+
+		// Filter items based on search string.
+		$itemsElement.isotope({filter: function(){
+			var text1 = $.trim($(this).find('.item-title').text()).toLowerCase();
+			var text2 = $.trim($(this).find('.tags').text()).toLowerCase();
+			var text3 = $.trim($(this).find('.description').text()).toLowerCase();
+			var text4 = $.trim($(this).find('.author').text()).toLowerCase();
+			return text1.indexOf(val) !== -1 || text2.indexOf(val) !== -1 || text3.indexOf(val) !== -1 || text4.indexOf(val) !== -1;
+		}});
 	});
 }
