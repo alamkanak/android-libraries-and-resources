@@ -1,5 +1,5 @@
 var $itemsElement;
-var tags = ["Network", "Internet", "Database", "ORM", "Dependency", "Injection", "Image", "Animation", "Fragment", "Action Bar", "REST", "API", "Asynchronous", "Task", "View", "Scroll", "Picker", "Adapter View", "Graph", "Sample App", "Tool", "Cache", "Test", "Widget", "Time", "Progress", "Navigation", "Rating", "Barcode", "Bus", "Utility", "Parse", "Notification", "Map", "Dialog", "Media", "Showcase", "Resources"];
+var tags = ["Network", "Internet", "Database", "ORM", "Dependency", "Injection", "Image", "Animation", "Fragment", "Action Bar", "REST", "API", "Asynchronous", "Task", "View", "Scroll", "Picker", "Adapter View", "Graph", "Sample App", "Tool", "Cache", "Test", "Widget", "Time", "Progress", "Navigation", "Rating", "Barcode", "Bus", "Utility", "Parse", "Notification", "Map", "Dialog", "Media", "Showcase", "Resources", "Library Collection"];
 var items = [
 	{
 		"title": "Android Asynchronous Http Client",
