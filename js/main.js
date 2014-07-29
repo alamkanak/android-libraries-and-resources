@@ -1392,6 +1392,37 @@ var items = [
 		"author": "Pavlos-Petros Tournaris",
 		"description": "A Circle View containing Title and Subtitle.",
 		"github_url": "https://github.com/pavlospt/CircleView"
+	},
+	{
+		"title": "Tape",
+		"tags": ["task"],
+		"author": "Square",
+		"description": "Tape is a collection of queue-related classes for Android and Java by Square, Inc.<br><br>QueueFile is a lightning-fast, transactional, file-based FIFO. Addition and removal from an instance is an O(1) operation and is atomic. Writes are synchronous; data will be written to disk before an operation returns. The underlying file is structured to survive process and even system crashes and if an I/O exception is thrown during a mutating change, the change is aborted.<br><br>An ObjectQueue represents an ordering of arbitrary objects which can be backed either by the filesystem (via QueueFile) or in memory only.<br><br>TaskQueue is a special object queue which holds Tasks, objects which have a notion of being executed. Instances are managed by an external executor which prepares and executes enqueued tasks.",
+		"home_url": "http://square.github.io/tape",
+		"github_url": "https://github.com/square/tape"
+	},
+	{
+		"title": "AssertJ Android",
+		"tags": ["test"],
+		"author": "Square",
+		"description": "A set of AssertJ assertions geared toward testing Android.<br><br>Writing tests is not the most glamorous part of developing an Android application but it is an invaluable one. Using libraries like JUnit and AssertJ provide a great starting point for writing tests.<br><br>This library is an extension of AssertJ which aims to make it even easier to test Android.",
+		"home_url": "http://square.github.io/assertj-android",
+		"github_url": "https://github.com/square/assertj-android"
+	},
+	{
+		"title": "Spoon",
+		"tags": ["test"],
+		"author": "Square",
+		"description": "Distributing instrumentation tests to all your Androids.",
+		"home_url": "http://square.github.io/spoon",
+		"github_url": "https://github.com/square/spoon"
+	},
+	{
+		"title": "Seismic",
+		"tags": ["utility"],
+		"author": "Square",
+		"description": "Android device shake detection.",
+		"github_url": "https://github.com/square/seismic"
 	}
 ];
 
