@@ -1423,6 +1423,21 @@ var items = [
 		"author": "Square",
 		"description": "Android device shake detection.",
 		"github_url": "https://github.com/square/seismic"
+	},
+	{
+		"title": "FlipView",
+		"tags": ["view"],
+		"author": "Emil Sjölander",
+		"description": "A small, easy to use android library for implementing flipping between views as seen in the popular Flipboard application.",
+		"github_url": "https://github.com/emilsjolander/android-FlipView"
+	},
+	{
+		"title": "android-flip",
+		"tags": ["view"],
+		"author": "OpenAphid-Engine",
+		"description": "A component for flip animation on Android, which is similar to the effect in Flipboard iPhone/Android.",
+		"home_url": "http://openaphid.github.io/",
+		"github_url": "https://github.com/openaphid/android-flip"
 	}
 ];
 
