@@ -1,5 +1,5 @@
 var $itemsElement;
-var tags = ["Network", "Internet", "Database", "ORM", "Dependency", "Injection", "Image", "Animation", "Fragment", "Action Bar", "REST", "API", "Asynchronous", "Task", "View", "Scroll", "Picker", "Adapter View", "Graph", "Sample App", "Tool", "Cache", "Test", "Widget", "Time", "Progress", "Navigation", "Rating", "Barcode", "Bus"];
+var tags = ["Network", "Internet", "Database", "ORM", "Dependency", "Injection", "Image", "Animation", "Fragment", "Action Bar", "REST", "API", "Asynchronous", "Task", "View", "Scroll", "Picker", "Adapter View", "Graph", "Sample App", "Tool", "Cache", "Test", "Widget", "Time", "Progress", "Navigation", "Rating", "Barcode", "Bus", "Utility", "Parse", "Notification", "Map", "Dialog", "Media", "Showcase", "Resources"];
 var items = [
 	{
 		"title": "Android Asynchronous Http Client",
@@ -11,7 +11,7 @@ var items = [
 	},
 	{
 		"title": "Volley",
-		"tags": ["network", "internet", "API", "asynchronous", "cache"],
+		"tags": ["network", "internet", "api", "asynchronous", "cache", "rest"],
 		"author": "Google",
 		"description": "Volley is an HTTP library that makes networking for Android apps easier and most importantly, faster. Volley is available through the open AOSP repository.",
 		"home_url": "http://developer.android.com/training/volley/index.html",
@@ -480,15 +480,8 @@ var items = [
 		"github_url": "https://github.com/JakeWharton/u2020"
 	},
 	{
-		"title": "PID Cat",
-		"tags": ["tool"],
-		"author": "Jake Wharton",
-		"description": "Colored logcat script which only shows log entries for a specific application package.",
-		"github_url": "https://github.com/JakeWharton/pidcat"
-	},
-	{
 		"title": "Timber",
-		"tags": ["tool"],
+		"tags": ["tool", "utility"],
 		"author": "Jake Wharton",
 		"description": "A logger with a small, extensible API which provides utility on top of Android's normal Log class.",
 		"github_url": "https://github.com/JakeWharton/timber",
@@ -724,28 +717,28 @@ var items = [
 	},
 	{
 		"title": "RateMeMaybe",
-		"tags": ["rating"],
+		"tags": ["rating", "dialog"],
 		"author": "Kopfgeldjaeger",
 		"description": "Asks the user if (s)he wants to open the Play Store to rate your application when certain requirements are met (see below). This can and should be configured to be very cautious. Don't annoy your users!",
 		"github_url": "https://github.com/Kopfgeldjaeger/RateMeMaybe"
 	},
 	{
 		"title": "AppRater",
-		"tags": ["rating"],
+		"tags": ["rating", "dialog"],
 		"author": "CodeChimp.org",
 		"description": "AppRater is a library for Android designed to facilitate easy prompting of users to rate your app within the Google Play store or Amazon App Store. It won't prompt until at least 3 days or 7 uses of the app has passed and if the user chooses to rate later the count will start again.",
 		"github_url": "https://github.com/codechimp-org/AppRater"
 	},
 	{
 		"title": "AppRate",
-		"tags": ["rating"],
+		"tags": ["rating", "dialog"],
 		"author": "Timothée Jeannin",
 		"description": "A friendly library to prompt your users to rate your app.",
 		"github_url": "https://github.com/TimotheeJeannin/AppRate"
 	},
 	{
 		"title": "Android library to show 'Rate this app' dialog",
-		"tags": ["rating"],
+		"tags": ["rating", "dialog"],
 		"author": "Keisuke Kobayashi",
 		"description": "Android-RateThisApp is an library to show 'Rate this app' dialog.",
 		"github_url": "https://github.com/kskkbys/Android-RateThisApp"
@@ -833,76 +826,572 @@ var items = [
 		"github_url": "https://github.com/path/android-priority-jobqueue"
 	},
 	{
-		"title": "",
-		"tags": [""],
-		"author": "",
-		"description": "",
+		"title": "Guava",
+		"tags": ["utility", "cache"],
+		"author": "Google",
+		"description": "The Guava project contains several of Google's core libraries that we rely on in our Java-based projects: collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.",
+		"google_url": "https://code.google.com/p/guava-libraries/"
+	},
+	{
+		"title": "Otto",
+		"tags": ["bus"],
+		"author": "Square",
+		"description": "Otto is an event bus designed to decouple different parts of your application while still allowing them to communicate efficiently.<br><br>Forked from Guava, Otto adds unique functionality to an already refined event bus as well as specializing it to the Android platform.",
+		"github_url": "http://github.com/square/otto",
+		"home_url": "http://square.github.io/otto/"
+	},
+	{
+		"title": "Guice",
+		"tags": ["dependency", "injection"],
+		"author": "Google",
+		"description": "Guice (pronounced 'juice') is a lightweight dependency injection framework for Java 6 and above, brought to you by Google.",
+		"github_url": "https://github.com/google/guice",
+		"google_url": "https://code.google.com/p/google-guice/"
+	},
+	{
+		"title": "Spring Framework",
+		"tags": ["dependency", "injection", "rest"],
+		"author": "Spring",
+		"description": "The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications - on any kind of deployment platform. A key element of Spring is infrastructural support at the application level: Spring focuses on the 'plumbing' of enterprise applications so that teams can focus on application-level business logic, without unnecessary ties to specific deployment environments.",
+		"github_url": "https://github.com/spring-projects/spring-framework",
+		"home_url": "http://projects.spring.io/spring-framework/"
+	},
+	{
+		"title": "jsoup: Java HTML Parser",
+		"tags": ["parse"],
+		"author": "Jonathan Hedley",
+		"description": "jsoup is a Java library for working with real-world HTML. It provides a very convenient API for extracting and manipulating data, using the best of DOM, CSS, and jquery-like methods.<br><br>jsoup implements the WHATWG HTML5 specification, and parses HTML to the same DOM as modern browsers do.",
+		"home_url": "http://jsoup.org"
+	},
+	{
+		"title": "OAK Android Kit",
+		"tags": ["utility", "adapter view", "view", "tool"],
+		"author": "WillowTree Apps, Inc.",
+		"description": "Library to address common hurdles in Android development.",
+		"github_url": "https://github.com/willowtreeapps/OAK",
+		"home_url": "http://willowtreeapps.github.io/OAK",
+	},
+	{
+		"title": "StandOut",
+		"tags": ["view"],
+		"author": "Mark Wei",
+		"description": "StandOut lets you easily create floating windows in your Android app.",
+		"github_url": "https://github.com/pingpongboss/StandOut",
+		"home_url": "http://pingpongboss.github.io/StandOut"
+	},
+	{
+		"title": "Crouton",
+		"tags": ["notification"],
+		"author": "Benjamin Weiss",
+		"description": "Context sensitive notifications for Android",
+		"github_url": "https://github.com/keyboardsurfer/Crouton"
+	},
+	{
+		"title": "SuperToasts",
+		"tags": ["notification"],
+		"author": "John Persano",
+		"description": "A library that extends the Android toast framework.",
+		"github_url": "https://github.com/JohnPersano/SuperToasts"
+	},
+	{
+		"title": "ShowcaseView",
+		"tags": ["view", "showcase"],
+		"author": "Alex Curran",
+		"description": "Highlight the best bits of your app to users quickly, simply, and cool...ly",
+		"github_url": "https://github.com/amlcurran/Showcaseview",
+		"home_url": "http://amlcurran.github.io/ShowcaseView"
+	},
+	{
+		"title": "RoboDemo",
+		"tags": ["view", "showcase"],
+		"author": "Stéphane Nicolas",
+		"description": "RoboDemo is a ShowCase library for Android to demonstrate to users how a given Activity works.",
+		"github_url": "https://github.com/stephanenicolas/RoboDemo"
+	},
+	{
+		"title": "BoundBox",
+		"tags": ["test"],
+		"author": "Stéphane Nicolas",
+		"description": "BoundBox provides an easy way to test an object by accessing all its fields, constructor and methods, public or not. BoundBox breaks encapsulation.",
+		"github_url": "https://github.com/stephanenicolas/boundbox"
+	},
+	{
+		"title": "aFileChooser",
+		"tags": ["view", "media"],
+		"author": "Paul Burke",
+		"description": "Android library that provides a file explorer to let users select files on external storage.",
+		"github_url": "https://github.com/iPaulPro/aFileChooser"
+	},
+	{
+		"title": "MapNavigator",
+		"tags": ["map"],
+		"author": "tyczj",
+		"description": "Easy to use library to get and display driving directions on Google Maps v2 in Android",
+		"github_url": "https://github.com/tyczj/MapNavigator"
+	},
+	{
+		"title": "Android StackBlur",
+		"tags": ["image"],
+		"author": "Enrique López Mañas",
+		"description": "Android StackBlur is a library that can perform a blurry effect on a Bitmap based on a gradient or radius, and return the result. The library is based on the code of Mario Klingemann.",
+		"github_url": "https://github.com/kikoso/android-stackblur"
+	},
+	{
+		"title": "Swipeable cards: Tinder-like cards ",
+		"tags": ["view"],
+		"author": "Enrique López Mañas",
+		"description": "A native library providing a Tinder-like cards effect. A card can be constructed using an image and displayed with animation effects, dismiss-to-like and dismiss-to-unlike, and use different sorting mechanisms.",
+		"github_url": "https://github.com/kikoso/Swipeable-Cards"
+	},
+	{
+		"title": "NewQuickAction",
+		"tags": ["view", "dialog"],
+		"author": "Lorensius W. L. T",
+		"description": "NewQuickAction is a small android library to create QuickAction dialog.",
+		"github_url": "https://github.com/lorensiuswlt/NewQuickAction",
+		"home_url": "http://www.londatiga.net/it/how-to-create-quickaction-dialog-in-android/"
+	},
+	{
+		"title": "RefreshActionItem",
+		"tags": ["action bar", "progress"],
+		"author": "ManuelPeinado",
+		"description": "An action bar item which acts both as a refresh button and as a progress indicator.",
+		"github_url": "https://github.com/ManuelPeinado/RefreshActionItem"
+	},
+	{
+		"title": "FadingActionBar",
+		"tags": ["action bar"],
+		"author": "ManuelPeinado",
+		"description": "Android library implementing a fading effect for the action bar, similar to the one found in the Play Music app.",
+		"github_url": "https://github.com/ManuelPeinado/FadingActionBar"
+	},
+	{
+		"title": "GlassActionBar",
+		"tags": ["action bar"],
+		"author": "ManuelPeinado",
+		"description": "A library that adds a glass-like effect to the action bar.",
+		"github_url": "https://github.com/ManuelPeinado/GlassActionBar"
+	},
+	{
+		"title": "Icepick",
+		"tags": ["inject", "utility"],
+		"author": "Frankie Sardo",
+		"description": "Icepick is an Android library that simplifies the lifecycle of save and restore instance state. It uses annotation processing to generate code that does bundle manipulation and key generation, removing lots of boilerplate from your classes.",
+		"github_url": "https://github.com/frankiesardo/icepick"
+	},
+	{
+		"title": "StyledDialogs",
+		"tags": ["notification", "dialog"],
+		"author": "Inmite s.r.o.",
+		"description": "A simple library for styling Android dialogs in the Holo theme. It also removes boilerplate code for displaying simple dialogs.",
+		"github_url": "https://github.com/inmite/android-styled-dialogs"
+	},
+	{
+		"title": "Update Checker",
+		"tags": ["dialog"],
+		"author": "Pietro Rampini",
+		"description": "UpdateChecker is a class that can be used by Android Developers to increase the number of their apps' updates by showing a 'New update available' Notification or Dialog.<br><br>It checks for new updates downloadable parsing the Store desktop page of your app.",
+		"github_url": "https://github.com/rampo/UpdateChecker"
+	},
+	{
+		"title": "GmailLikePullToRefresh",
+		"tags": ["action bar", "progress"],
+		"author": "learnNcode",
+		"description": "Gmail like pull to refresh implementation.",
+		"github_url": "https://github.com/learnNcode/GmailLikePullToRefresh"
+	},
+	{
+		"title": "Media Chooser",
+		"tags": ["media"],
+		"author": "learnNcode",
+		"description": "Library to browse & select videos and images from disk.",
+		"github_url": "https://github.com/learnNcode/MediaChooser"
+	},
+	{
+		"title": "C2Call",
+		"tags": ["media"],
+		"author": "C2Call",
+		"description": "C2Call empowers your apps' communication with its cutting-edge, cross-platform 7-way Group Video Calling, Voice and Instant Messaging featured technology for Mobiles, Tablets and Desktops.",
+		"home_url": "http://www.c2call.com"
+	},
+	{
+		"title": "ImageLayout",
+		"tags": ["image", "view"],
+		"author": "ManuelPeinado",
+		"description": "A layout that arranges its children in relation to a background image. The layout of each child is specified in image coordinates (pixels), and the conversion to screen coordinates is performed automatically.",
+		"github_url": "https://github.com/ManuelPeinado/ImageLayout"
+	},
+	{
+		"title": "EdgeEffectOverride",
+		"tags": ["scroll"],
+		"author": "AndroidAlliance",
+		"description": "EdgeEffectOverride is library designed to help override the blue overscroll_edge and overscroll_glow effects used by the the EdgeEffect class.",
+		"github_url": "https://github.com/AndroidAlliance/EdgeEffectOverride"
+	},
+	{
+		"title": "HoloAccent",
+		"tags": ["view"],
+		"author": "Borja Lopez Urkidi",
+		"description": "Android library to customize the Holo theme with a custom accent color. The color can even be set programmatically, allowing the UI to change dynamically.",
+		"github_url": "https://github.com/negusoft/holoaccent"
+	},
+	{
+		"title": "SuperToolTips ",
+		"tags": ["view", "showcase"],
+		"author": "Niek Haarman",
+		"description": "SuperToolTips is an Open Source Android library that allows developers to easily create Tool Tips for views. Feel free to use it all you want in your Android apps provided that you cite this project and include the license in your app.",
+		"github_url": "https://github.com/nhaarman/supertooltips"
+	},
+	{
+		"title": "Ergo",
+		"tags": ["asynchronous", "task"],
+		"author": "Niek Haarman",
+		"description": "Ergo is an Android library for easily executing tasks using IntentServices. Feel free to use it all you want in your Android apps provided that you cite this project and include the license in your app.",
+		"github_url": "https://github.com/nhaarman/Ergo"
+	},
+	{
+		"title": "Mizuu - media indexer for Android",
+		"tags": ["sample app", "media"],
+		"author": "Michell Bak",
+		"description": "Popular media indexer app for Android.",
+		"github_url": "https://github.com/MizzleDK/Mizuu",
+		"home_url": "http://mizuu.tv/"
+	},
+	{
+		"title": "Googe I/O",
+		"tags": ["sample app"],
+		"author": "Google",
+		"description": "Google I/O is a developer conference held each year with two days of deep technical content featuring technical sessions and hundreds of demonstrations from developers showcasing their technologies.<br><br>This project is the Android app for the conference. The app supports devices running Android 4.0+, and is optimized for phones and tablets of all shapes and sizes. It also contains an Android Wear integration.",
+		"github_url": "https://github.com/google/iosched/"
+	},
+	{
+		"title": "Philm",
+		"tags": ["sample app"],
+		"author": "Chris Banes",
+		"description": "Movie collection and information app for Android.",
+		"github_url": "https://github.com/chrisbanes/philm"
+	},
+	{
+		"title": "PhotoProcessing",
+		"tags": ["image"],
+		"author": "Chris Banes",
+		"description": "A demo of how you can process photos leveraging the ndk.",
+		"github_url": "https://github.com/chrisbanes/PhotoProcessing"
+	},
+	{
+		"title": "SeriesGuide Show Manager",
+		"tags": ["sample app"],
+		"author": "Uwe Trottmann",
+		"description": "Manage (re)watching your favorite TV shows on your Android devices.",
+		"github_url": "https://github.com/UweTrottmann/SeriesGuide"
+	},
+	{
+		"title": "SlidingMenu",
+		"tags": ["navigation"],
+		"author": "Jeremy Feinstein",
+		"description": "SlidingMenu is an Open Source Android library that allows developers to easily create applications with sliding menus like those made popular in the Google+, YouTube, and Facebook apps. Feel free to use it all you want in your Android apps provided that you cite this project and include the license in your app.",
+		"github_url": "https://github.com/jfeinstein10/SlidingMenu"
+	},
+	{
+		"title": "DominantColors",
+		"tags": ["image"],
+		"author": "Jeremy Feinstein",
+		"description": "Android, k-means clustering based class for pulling out the dominant colors of an image. Doing other useful things with those colors.",
+		"github_url": "https://github.com/jfeinstein10/DominantColors"
+	},
+	{
+		"title": "RESTProvider ",
+		"tags": ["rest", "network", "internet", "database", "cache"],
+		"author": "Novoda",
+		"description": "The RESTProvider aims to make it easy to access REST service (or any online data format through mainly HTTP calls) and cache it locally into a SQLite database. It permits offline usage and some sort of syncing mechanism against a snapshot of user data.",
+		"github_url": "https://github.com/novoda/RESTProvider"
+	},
+	{
+		"title": "ImageLoader",
+		"tags": ["image", "network", "cache", "internet"],
+		"author": "Novoda",
+		"description": "ImageLoader is a simple library that makes it easy to download, display and cache remote images in Android apps. Image download happens off the UI thread and the images are cached with a two-level in-memory/SD card cache.",
+		"github_url": "https://github.com/novoda/ImageLoader"
+	},
+	{
+		"title": "droidQuery",
+		"tags": ["animation", "network", "database", "utility"],
+		"author": "Phil Brown",
+		"description": "droidQuery is an Android port of jQuery, and is designed to be as syntactically alike as possible in Java.",
+		"github_url": "https://github.com/phil-brown/droidQuery",
+		"home_url": "http://phil-brown.github.io/droidQuery/"
+	},
+	{
+		"title": "enroscar",
+		"tags": ["asynchronous", "task"],
+		"author": "Stanfy",
+		"description": "A set of Android tools that facilitate apps development",
+		"github_url": "https://github.com/stanfy/enroscar"
+	},
+	{
+		"title": "Device Art Generator",
+		"tags": ["tool"],
+		"author": "Google",
+		"description": "The device art generator enables you to quickly wrap app screenshots in real device artwork. This provides better visual context for your app screenshots on your website or in other promotional materials.",
+		"home_url": "http://developer.android.com/distribute/tools/promote/device-art.html"
+	},
+	{
+		"title": "Device Frame Generator",
+		"tags": ["tool"],
+		"author": "Prateek Srivastava",
+		"description": "The device art generator allows you to quickly wrap your app screenshots in real device artwork. This provides better visual context for your app screenshots on your web site or in other promotional materials.<br><br>This is a port of the webapp Device Frame Generator by +Roman Nurik, developed to run natively on Android.",
+		"home_url": "http://f2prateek.com/android-device-frame-generator/",
+		"github_url": "https://github.com/f2prateek/android-device-frame-generator"
+	},
+	{
+		"title": "ProgressButton",
+		"tags": ["progress", "view"],
+		"author": "Prateek Srivastava",
+		"description": "ProgressButton is a custom progress indicator with a tiny footprint. The default implementation provides a pin progress button as seen on the Android design site.",
+		"github_url": "https://github.com/f2prateek/progressbutton"
+	},
+	{
+		"title": "Placeit",
+		"tags": ["tool"],
+		"author": "Freshout",
+		"description": "Send an img or url to go@placeit.net ⇆ get design comps.",
+		"home_url": "https://placeit.net/"
+	},
+	{
+		"title": "Android Snippets",
+		"tags": ["tool"],
+		"author": "Android Snippets",
+		"description": "AndroidSnippets is a community driven website for finding, exploring, sharing and improving source code snippets for Android.",
+		"home_url": "http://www.androidsnippets.com/"
+	},
+	{
+		"title": "Android Drawable Factory",
+		"tags": ["tool", "image"],
+		"author": "Tiziano Basile",
+		"description": "An application to create appropriate Drawable resources for you Android app.",
+		"github_url": "https://github.com/tizionario/AndroidDrawableFactory"
+	},
+	{
+		"title": "Android Dev Tools",
+		"tags": ["tool"],
+		"author": "KP BIRD",
+		"description": "Collection of android tools.",
+		"home_url": "http://www.kpbird.com/p/android-dev-tools.html"
+	},
+	{
+		"title": "jsonschema2pojo",
+		"tags": ["tool", "parse"],
+		"author": "Joe Littlejohn",
+		"description": "Generate Plain Old Java Objects from JSON or JSON-Schema.",
+		"github_url": "https://github.com/joelittlejohn/jsonschema2pojo",
+		"home_url": "http://www.jsonschema2pojo.org/"
+	},
+	{
+		"title": "Get Localization",
+		"tags": ["tool"],
+		"author": "Get Localization Ltd.",
+		"description": "Smartest way to translate your app, website or documents.",
+		"home_url": "http://www.getlocalization.com/"
+	},
+	{
+		"title": "JSON Generator",
+		"tags": ["tool", "parse"],
+		"author": "Vazha Omanashvili",
+		"description": "We've all faced the problem of lack of information in our app. All interfaces seem lifeless and empty. Debugging with no data is also not simple.<br><br>I think that each of us has at least once in their lives created a bunch of files with JSON data, but they were just one object propagated without unique fields. JSON Generator was created in order to help with this. It provides an opportunity generate any data and in any quantity. Edit template, click 'Generate' and you're done.",
+		"home_url": "http://www.json-generator.com/",
+	},
+	{
+		"title": "lorempixel",
+		"tags": ["tool", "image"],
+		"author": "a tiny free service by ",
+		"description": "Placeholder Images for every case. Webdesign or Print. It's simple and absolutely free!",
+		"home_url": "http://lorempixel.com/"
+	},
+	{
+		"title": "TinyPNG",
+		"tags": ["tool", "image"],
+		"author": "TinyPNG",
+		"description": "Shrink PNG files. Advanced lossy compression for PNG images that preserves full alpha transparency.",
+		"home_url": "https://tinypng.com/"
+	},
+	{
+		"title": "Android Button Maker",
+		"tags": ["tool"],
+		"author": "Angrytools",
+		"description": "Android Button Maker is online tool to generate buttons code for Android Apps. Android API provide Drawable Resources where XML file defines geometric shape, including colors, border and gradients.<br><br>These button is generating based on shape drawable XML code which load faster compare to normal png buttons. You can customize button properties in setting panel and get source code.",
+		"home_url": "http://angrytools.com/android/button/"
+	},
+	{
+		"title": "Android Layout Finder",
+		"tags": ["tool"],
+		"author": "Jesper Borgstrup",
+		"description": "The Android Layout Finder helps you create the code that ties your Android UI and Java code together.<br><br>It's real easy! Just paste your Android XML layout code in the first text field, pick the views that you need, and your code is automatically generated for you.<br><br>No more typing out all those nearly identical findViewById() and findFragmentById() calls in your activities or fragments whenever you change your Android layouts.",
+		"home_url": "https://www.buzzingandroid.com/tools/android-layout-finder/"
+	},
+	{
+		"title": "Android DPI Calculator",
+		"tags": ["tool"],
+		"author": "martincohen",
+		"description": "Enter values for the source dpi and the utility will fill in others. The second row is for your convenience.",
+		"home_url": "http://coh.io/adpi/"
+	},
+	{
+		"title": "Android Icons",
+		"tags": ["tool", "resources"],
+		"author": "Guenther Beyer and Opoloo",
+		"description": "250 icons in 5 sizes and 14 colors. Handcrafted, pixel perfect.<br><br>Optimized for Ice Cream Sandwich, Jelly Bean & the Web.<br><br>250 developer icons that work perfectly in your Android app, mobile interface, or website – in 5 sizes and 14 colors, including vector sources and a friendly license.",
+		"home_url": "http://www.androidicons.com/"
+	},
+	{
+		"title": "Free Design Resources",
+		"tags": ["resources"],
+		"author": "Taylor Ling",
+		"description": "Inspiration source for Android Designers and Developers.",
+		"home_url": "http://androiduiux.com/free-design-resources/"
+	},
+	{
+		"title": "Pencil Project",
+		"tags": ["tool"],
+		"author": "Evolus",
+		"description": "An open-source GUI prototyping tool that's available for ALL platforms.<br><br>Pencil is built for the purpose of providing a free and open-source GUI prototyping tool that people can easily install and use to create mockups in popular desktop platforms.",
+		"home_url": "http://pencil.evolus.vn/",
+	},
+	{
+		"title": "ButterKnifeZelezny",
+		"tags": ["tool"],
+		"author": "Inmite s.r.o.",
+		"description": "Android Studio plug-in for generating ButterKnife injections from selected layout XML.",
+		"github_url": "https://github.com/inmite/android-butterknife-zelezny"
+	},
+	{
+		"title": "Fluid UI",
+		"tags": ["tool"],
+		"author": "Fluid software",
+		"description": "Fast and friendly mobile prototyping.",
+		"home_url": "http://fluidui.com"
+	},
+	{
+		"title": "Android Cheatsheet for Graphic Designers",
+		"tags": ["tool"],
+		"author": "Petr Nohejl",
+		"description": "Graphic designers aren't programmers and sometimes don't know how to properly prepare graphic assets for developers. This simple cheatsheet should help them to do their job better, and to simplify developers' lives.",
+		"github_url": "https://github.com/petrnohejl/Android-Cheatsheet-For-Graphic-Designers/",
+		"home_url": "http://petrnohejl.github.io/Android-Cheatsheet-For-Graphic-Designers/"
+	},
+	{
+		"title": "AndroidDesign.Tips",
+		"tags": ["tool"],
+		"author": "Tim Green and Ben Scott",
+		"description": "Android design tips.",
+		"home_url": "http://www.androiddesign.tips"
+	},
+	{
+		"title": "SmoothReviews",
+		"tags": ["tool"],
+		"author": "SmoothMobile",
+		"description": "Get unlimited free reviews for your app by reviewing other apps.",
+		"home_url": "http://smoothreviews.com"
+	},
+	{
+		"title": "Smooth Localize",
+		"tags": ["tool"],
+		"author": "SmoothMobile",
+		"description": "Increase your app’s audience by 280% in just 10 minutes.",
+		"home_url": "http://smoothlocalize.com/"
+	},
+	{
+		"title": "Libraries for developers",
+		"tags": ["library collection"],
+		"author": "Desarrollo Droide",
+		"description": "This application provides a collection of third party libraries, as a developer this application is essential for you.<br><br>You will have information about the author, captures, license, description, links of the library and you can try a working example within the application.<br><br>Recently it has added a tab with SNIPPETS that will be updated constantly.<br><br>In order to collect the largest possible number of libraries the version of the application is ICS.<br><br>Most applications are listed on github, others are from google code and bitbucket.<br><br>From this application we want to thank all the developers who publish their libraries for the benefit of others.<br><br>We hope that developers might find it useful.",
 		"github_url": "",
-		"home_url": "",
+		"home_url": "https://play.google.com/store/apps/details?id=com.desarrollodroide.repos",
 		"google_url": ""
 	},
 	{
-		"title": "",
-		"tags": [""],
-		"author": "",
-		"description": "",
-		"github_url": "",
-		"home_url": "",
-		"google_url": ""
+		"title": "AppBrain Development Tools",
+		"tags": ["library collection"],
+		"author": "AppBrain",
+		"description": "Collection of development tools.",
+		"home_url": "http://www.appbrain.com/stats/libraries/dev"
 	},
 	{
-		"title": "",
-		"tags": [""],
-		"author": "",
-		"description": "",
-		"github_url": "",
-		"home_url": "",
-		"google_url": ""
+		"title": "The Android Arsenal",
+		"tags": ["library collection"],
+		"author": "Vladislav Bauer",
+		"description": "A categorized directory of free libraries and tools for Android",
+		"home_url": "http://android-arsenal.com",
 	},
 	{
-		"title": "",
-		"tags": [""],
-		"author": "",
-		"description": "",
-		"github_url": "",
-		"home_url": "",
-		"google_url": ""
+		"title": "DevDrawer",
+		"tags": ["library collection"],
+		"author": "OwenTech",
+		"description": "DevDrawer is a widget based app for developers who are constantly installing / uninstalling / clearing data on their projects.<br><br>I find myself searching through the appdrawer everytime I re-install an application. With this widget you provide a package filter, when an app is installed and it matches the package filter the app will be automatically added to the widget.",
+		"home_url": "https://play.google.com/store/apps/details?id=com.owentech.DevDrawer"
 	},
 	{
-		"title": "",
-		"tags": [""],
-		"author": "",
-		"description": "",
-		"github_url": "",
-		"home_url": "",
-		"google_url": ""
+		"title": "DevAppsDirect - Demo Market",
+		"tags": ["library collection"],
+		"author": "inAppSquared",
+		"description": "Developer Apps Direct is a large and growing collection of library demos. We make it fast and easy for app developers to discover great libraries and run their demo with the press of a button. No more hunting down apks or downloading and compiling source code. You can try dozens of libraries in just a few minutes!<br><br>Stop making your job as an app developer harder by re-inventing the wheel. Browse our great collection of library demos and discover tools to make your app great in less time.",
+		"home_url": "https://play.google.com/store/apps/details?id=com.inappsquared.devappsdirect"
 	},
 	{
-		"title": "",
-		"tags": [""],
-		"author": "",
-		"description": "",
-		"github_url": "",
-		"home_url": "",
-		"google_url": ""
+		"title": "AndroidLibs",
+		"tags": ["library collection"],
+		"author": "AlexMahrt",
+		"description": "Collection of android libraries.",
+		"home_url": "http://android-libs.com"
 	},
 	{
-		"title": "",
-		"tags": [""],
-		"author": "",
-		"description": "",
-		"github_url": "",
-		"home_url": "",
-		"google_url": ""
+		"title": "Awesome Android",
+		"tags": ["library collection"],
+		"author": "Jürgen Stumpp",
+		"description": "A curated list of awesome Android packages and resources.",
+		"github_url": "https://github.com/JStumpp/awesome-android"
 	},
 	{
-		"title": "",
-		"tags": [""],
-		"author": "",
-		"description": "",
-		"github_url": "",
-		"home_url": "",
-		"google_url": ""
+		"title": "android-security-awesome",
+		"tags": ["library collection"],
+		"author": "ashishb",
+		"description": "A collection of android security related resources.",
+		"github_url": "https://github.com/ashishb/android-security-awesome"
+	},
+	{
+		"title": "Android Libraries and Resources",
+		"tags": ["library collection"],
+		"author": "Raquib-ul-Alam (Kanak)",
+		"description": "List of awesome libraries, tools and other resources for android app development. Organized and categorized for filtering and searching.",
+		"github_url": "https://github.com/alamkanak/android-libraries-and-resources",
+		"home_url": "http://alamkanak.github.io/android-libraries-and-resources"
+	},
+	{
+		"title": "CircularFloatingActionMenu",
+		"tags": ["view"],
+		"author": "Oğuz Bilgener",
+		"description": "An animated, customizable circular floating menu for Android, inspired by Path app.",
+		"github_url": "https://github.com/oguzbilgener/CircularFloatingActionMenu"
+	},
+	{
+		"title": "FloatingActionButton",
+		"tags": ["view"],
+		"author": "Melnykov Oleksandr",
+		"description": "Android Google+ like floating action button.",
+		"github_url": "https://github.com/makovkastar/FloatingActionButton"
+	},
+	{
+		"title": "Magnet",
+		"tags": ["view"],
+		"author": "Prem",
+		"description": "A library that makes it very simple to create a window icon, similar to Facebooks chat icon.",
+		"github_url": "https://github.com/premnirmal/Magnet"
+	},
+	{
+		"title": "CircleView",
+		"tags": ["view"],
+		"author": "Pavlos-Petros Tournaris",
+		"description": "A Circle View containing Title and Subtitle.",
+		"github_url": "https://github.com/pavlospt/CircleView"
 	}
 ];
 

@@ -171,9 +171,6 @@ Items section
   color: #b2b2b2;
   font-weight: 700;
 }
-.item .tags-container {
-  text-transform: uppercase;
-}
 .item .description {
   margin-bottom: 15px;
   margin-top: 10px;
