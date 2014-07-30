@@ -1580,6 +1580,37 @@ BSD, iOS and Android.",
 		"description": "Test-Drive Your Android Code. Running tests on an Android emulator or device is slow! Building, deploying, and launching the app often takes a minute or more. That’s no way to do TDD. There must be a better way.",
 		"home_url": "http://robolectric.org/",
 		"github_url": ""
+	},
+	{
+		"title": "Android-ActionItemBadge",
+		"tags": ["action bar"],
+		"author": "Mike Penz",
+		"description": "ActionItemBadge is a library which offers a simple and easy to use method to add a badge to your action item!",
+		"home_url": "http://mikepenz.github.io/Android-ActionItemBadge",
+		"github_url": "https://github.com/mikepenz/Android-ActionItemBadge"
+	},
+	{
+		"title": "https://github.com/mikepenz/AboutLibraries",
+		"tags": ["library collection"],
+		"author": "Mike Penz",
+		"description": "AboutLibraries is a library to offer you all the information you need of your libraries!",
+		"home_url": "http://mikepenz.github.io/AboutLibraries",
+		"github_url": "https://github.com/mikepenz/AboutLibraries"
+	},
+	{
+		"title": "Discreet App Rate",
+		"tags": ["rating", "notification"],
+		"author": "Nicolas POMEPUY",
+		"description": "A lightweight non intrusive app rate reminder for Android.",
+		"home_url": "http://nicolaspomepuy.fr/non-intrusive-app-rate",
+		"github_url": "https://github.com/PomepuyN/discreet-app-rate"
+	},
+	{
+		"title": "FButton ",
+		"tags": ["view"],
+		"author": "Le Van Hoang",
+		"description": "FButton is a custom Button of Android with 'Flat UI' concept. FButton's design get inspiration from designmono. This library is very small and highly customizable.",
+		"github_url": "https://github.com/hoang8f/android-flat-button"
 	}
 ];
 
