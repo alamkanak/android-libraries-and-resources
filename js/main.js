@@ -1,5 +1,5 @@
 var $itemsElement;
-var tags = ["Network", "Internet", "Database", "ORM", "Dependency", "Injection", "Image", "Animation", "Fragment", "Action Bar", "REST", "API", "Asynchronous", "Task", "View", "Scroll", "Picker", "Adapter View", "Graph", "Sample App", "Tool", "Cache", "Test", "Widget", "Time", "Progress", "Navigation", "Rating", "Barcode", "Bus", "Utility", "Parse", "Notification", "Map", "Dialog", "Media", "Showcase", "Resources", "Library Collection"];
+var tags = ["Network", "Internet", "Database", "ORM", "Dependency", "Injection", "Image", "Animation", "Fragment", "Action Bar", "REST", "API", "Asynchronous", "Task", "View", "Scroll", "Picker", "Adapter View", "Graph", "Sample App", "Tool", "Cache", "Test", "Widget", "Time", "Progress", "Navigation", "Rating", "Barcode", "Bus", "Utility", "Parse", "Notification", "Map", "Dialog", "Media", "Showcase", "Resources", "Library Collection", "Plugin", "Learning Resources"];
 var items = [
 	{
 		"title": "Android Asynchronous Http Client",
@@ -503,7 +503,7 @@ var items = [
 	},
 	{
 		"title": "Paraphrase",
-		"tags": ["tool"],
+		"tags": ["tool", "plugin"],
 		"author": "Jake Wharton",
 		"description": "An experimental Gradle plugin which generates compile-safe format string builders.",
 		"github_url": "https://github.com/JakeWharton/paraphrase"
@@ -1438,6 +1438,148 @@ var items = [
 		"description": "A component for flip animation on Android, which is similar to the effect in Flipboard iPhone/Android.",
 		"home_url": "http://openaphid.github.io/",
 		"github_url": "https://github.com/openaphid/android-flip"
+	},
+	{
+		"title": "Gradle, please",
+		"tags": ["tool", "library collection"],
+		"author": "Chris Broadfoot",
+		"description": "Get gradle dependency statements of any library.",
+		"home_url": "http://gradleplease.appspot.com"
+	},
+	{
+		"title": "SelectorChapek for Android",
+		"tags": ["tool", "plugin"],
+		"author": "Inmite s.r.o.",
+		"description": "Android Studio plugin which automatically generates drawable selectors from appropriately named resources.",
+		"github_url": "https://github.com/inmite/android-selector-chapek"
+	},
+	{
+		"title": "CodePath Android Cliffnotes",
+		"tags": ["library collection", "learning resources"],
+		"author": "CodePath",
+		"description": "Extensive Open-Source Guides for Android Developers.",
+		"home_url": "http://guides.thecodepath.com/",
+		"github_url": "https://github.com/thecodepath/android_guides"
+	},
+	{
+		"title": "GitHub Android App",
+		"tags": ["sample app"],
+		"author": "Github",
+		"description": "GitHub Android App.",
+		"github_url": "https://github.com/github/android"
+	},
+	{
+		"title": "Astrid - Task Management Done Right",
+		"tags": ["sample app"],
+		"author": "todoroo",
+		"description": "Astrid strives to be a simple and effective organization tool for Google Android phones. It comes with features like reminders, tagging, widgets, and integration with online synchronization services.",
+		"home_url": "http://www.astrid.com",
+		"github_url": "https://github.com/todoroo/astrid"
+	},
+	{
+		"title": "mobileorg-android",
+		"tags": ["sample app"],
+		"author": "Matthew Jones",
+		"description": "An implementation of MobileOrg for the Android platform",
+		"home_url": "http://wiki.github.com/matburt/mobileorg-android/",
+		"github_url": "https://github.com/matburt/mobileorg-android"
+	},
+	{
+		"title": "Gaug.es Android App",
+		"tags": ["sample app"],
+		"author": "Fastest Forward",
+		"description": "Gaug.es Android App.",
+		"github_url": "https://github.com/fastestforward/gauges-android"
+	},
+	{
+		"title": "tumblrsnap",
+		"tags": ["sample app"],
+		"author": "CodePath",
+		"description": "A fun photos app built on Tumbr.",
+		"github_url": "https://github.com/thecodepath/tumblrsnap/tree/portfolio"
+	},
+	{
+		"title": "VLC media player",
+		"tags": ["sample app"],
+		"author": "VideoLAN",
+		"description": "VLC is a popular libre and open source media player and multimedia engine,
+used by a large number of individuals, professionals, companies and
+institutions. Using open source technologies and libraries, VLC has been
+ported to most computing platforms, including GNU/Linux, Windows, Mac OS X,
+BSD, iOS and Android.",
+		"home_url": "http://www.videolan.org/vlc",
+		"github_url": "https://github.com/videolan/vlc"
+	},
+	{
+		"title": "RoboGuice",
+		"tags": ["tool", "injection"],
+		"author": "RoboGuice",
+		"description": "RoboGuice 2 smoothes out some of the wrinkles in your Android development experience and makes things simple and fun. Do you always forget to check for null when you getIntent().getExtras()? RoboGuice 2 will help you. Think casting findViewById() to a TextView shouldn’t be necessary? RoboGuice 2 is on it.",
+		"github_url": "https://github.com/roboguice/roboguice"
+	},
+	{
+		"title": "RoundedImageView",
+		"tags": ["image", "view"],
+		"author": "Vince Mi",
+		"description": "A fast ImageView (and Drawable) that supports rounded corners (and ovals or circles) based on the original example from Romain Guy.",
+		"github_url": "https://github.com/vinc3m1/RoundedImageView"
+	},
+	{
+		"title": "Satellite Menu",
+		"tags": ["view", "dialog"],
+		"author": "Siyamed SINIR",
+		"description": "'Path' has a very attractive menu sitting on the left bottom corner of the screen. Satellite Menu is the open version of this menu.",
+		"github_url": "https://github.com/siyamed/android-satellite-menu/"
+	},
+	{
+		"title": "ArcMenu",
+		"tags": ["view", "dialog"],
+		"author": "daCapricorn",
+		"description": "An android custom view which looks like the menu in Path 2.0 (for iOS).",
+		"github_url": "https://github.com/daCapricorn/ArcMenu"
+	},
+	{
+		"title": "AndroidCharts",
+		"tags": ["view", "graph"],
+		"author": "HackPlan",
+		"description": "An easy-to-use Android charts library with animation.",
+		"github_url": "https://github.com/HackPlan/AndroidCharts"
+	},
+	{
+		"title": "Barcode Scanner",
+		"tags": ["barcode"],
+		"author": "Dushyanth Maguluru",
+		"description": "Barcode Scanner Libraries for Android.",
+		"github_url": "https://github.com/dm77/barcodescanner"
+	},
+	{
+		"title": "android-quick-response-code",
+		"tags": ["barcode"],
+		"author": "Justin Wetherell",
+		"description": "This is a port of the ZXing (version 2.1) project but reduced in size and scope. It can be used as a direct call from any Android project instead of using the ZXing Intents mechanism.",
+		"google_url": "https://code.google.com/p/android-quick-response-code/"
+	},
+	{
+		"title": "Android Libs",
+		"tags": ["library collection"],
+		"author": "androidlibs.org",
+		"description": "Android Libs Org is a place to gather all open source Android UI Views, Android Libraries, Android Tools and Plugins.",
+		"home_url": "http://androidlibs.org",
+	},
+	{
+		"title": "Android Weekly",
+		"tags": ["library collection", "learning resources"],
+		"author": "Android Weekly",
+		"description": "Free weekly Android development newsletter.",
+		"home_url": "http://androidweekly.net/"
+	},
+	{
+		"title": "robolectric",
+		"tags": ["test"],
+		"author": "",
+		"description": "Test-Drive Your Android Code. Running tests on an Android emulator or device is slow! Building, deploying, and launching the app often takes a minute or more. That’s no way to do TDD. There must be a better way.",
+		"home_url": "http://robolectric.org/",
+		"github_url": ""
 	}
 ];
 
