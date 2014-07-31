@@ -1606,11 +1606,18 @@ BSD, iOS and Android.",
 		"github_url": "https://github.com/PomepuyN/discreet-app-rate"
 	},
 	{
-		"title": "FButton ",
+		"title": "FButton",
 		"tags": ["view"],
 		"author": "Le Van Hoang",
 		"description": "FButton is a custom Button of Android with 'Flat UI' concept. FButton's design get inspiration from designmono. This library is very small and highly customizable.",
 		"github_url": "https://github.com/hoang8f/android-flat-button"
+	},
+	{
+		"title": "QuickReturn",
+		"tags": ["adapter view", "scroll"],
+		"author": "Etienne Lawlor",
+		"description": "QuickReturn is a library which showcases the QuickReturn UI pattern. It can be used for header views, footer views, or both header views and footer views.",
+		"github_url": "https://github.com/lawloretienne/QuickReturn"
 	}
 ];
 

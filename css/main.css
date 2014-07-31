@@ -76,7 +76,7 @@ General
 }
 header {
   margin-top: 60px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 input:focus,
 .btn:focus,
@@ -86,6 +86,16 @@ input:focus,
 }
 input:focus {
   border: 3px solid #00aeef;
+}
+.social-actions {
+  margin-top: 20px;
+}
+.gplus-container {
+  vertical-align: middle;
+  display: inline-block;
+}
+.submit-library {
+  display: inline-block;
 }
 /* ----------------------------------------
 Filters section
