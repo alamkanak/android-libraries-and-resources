@@ -653,7 +653,7 @@ var items = [
 	},
 	{
 		"title": "No boring ActionBar",
-		"tags": ["action bar"],
+		"tags": ["action bar", "sample app"],
 		"author": "Flavien Laurent",
 		"description": "News Stand app makes the ActionBar not boring!",
 		"github_url": "https://github.com/flavienlaurent/NotBoringActionBar",
@@ -1618,7 +1618,29 @@ BSD, iOS and Android.",
 		"author": "Etienne Lawlor",
 		"description": "QuickReturn is a library which showcases the QuickReturn UI pattern. It can be used for header views, footer views, or both header views and footer views.",
 		"github_url": "https://github.com/lawloretienne/QuickReturn"
+	},
+	{
+		"title": "Android Sliding Up Panel",
+		"tags": ["navigation", "view"],
+		"author": "Umano",
+		"description": "This library provides a simple way to add a draggable sliding up panel (popularized by Google Music, Google Maps and Rdio) to your Android application.",
+		"github_url": "https://github.com/umano/AndroidSlidingUpPanel"
+	},
+	{
+		"title": "Cupboard",
+		"tags": ["database"],
+		"author": "Qbus",
+		"description": "Cupboard for Android is simple persistence that gets out of your way and is easy to add to your existing code base.",
+		"bitbucket_url": "https://bitbucket.org/qbusict/cupboard"
+	},
+	{
+		"title": "SmoothProgressBar",
+		"tags": ["progress", "view"],
+		"author": "Antoine Merle",
+		"description": "A small Android library allowing you to have a smooth and customizable horizontal indeterminate ProgressBar.",
+		"github_url": "https://github.com/castorflex/SmoothProgressBar"
 	}
+
 ];
 
 
