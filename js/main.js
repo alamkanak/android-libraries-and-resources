@@ -1639,6 +1639,77 @@ BSD, iOS and Android.",
 		"author": "Antoine Merle",
 		"description": "A small Android library allowing you to have a smooth and customizable horizontal indeterminate ProgressBar.",
 		"github_url": "https://github.com/castorflex/SmoothProgressBar"
+	},
+	{
+		"title": "HorizontalListView",
+		"tags": ["adapter view", "scroll"],
+		"author": "MeetMe",
+		"description": "HorizontalListView is an Android ListView widget which scrolls in a horizontal manner (in contrast with the SDK-provided ListView which scrolls vertically).",
+		"github_url": "https://github.com/MeetMe/Android-HorizontalListView"
+	},
+	{
+		"title": "Horizontal Variable ListView",
+		"tags": ["adapter view", "scroll"],
+		"author": "Alessandro Crugnola",
+		"description": "Horizontal list view for Android which allows variable items widths.",
+		"github_url": "https://github.com/sephiroth74/HorizontalVariableListView"
+	},
+	{
+		"title": "ignition",
+		"tags": ["network", "image", "view", "internet", "cache"],
+		"author": "Matthias Käppler",
+		"description": "Kick-starts Android application development.",
+		"github_url": "https://github.com/mttkay/ignition"
+	},
+	{
+		"title": "RxJava",
+		"tags": ["asynchronous", "network", "task"],
+		"author": "Netflix",
+		"description": "Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM.",
+		"github_url": "https://github.com/Netflix/RxJava"
+	},
+	{
+		"title": "davdroid",
+		"tags": ["sample app"],
+		"author": "rfc2822",
+		"description": "CalDAV/CardDAV synchronization for Android 4+ devices",
+		"home_url": "http://davdroid.bitfire.at",
+		"github_url": "https://github.com/rfc2822/davdroid"
+	},
+	{
+		"title": "ImageViewTouch",
+		"tags": ["view", "image"],
+		"author": "Alessandro Crugnola",
+		"description": "ImageViewTouch is an android ImageView widget with zoom and pan capabilities. This is an implementation of the ImageView widget used in the Gallery app of the Android opensource project.",
+		"github_url": "https://github.com/sephiroth74/ImageViewZoom"
+	},
+	{
+		"title": "SimpleNoSQL",
+		"tags": ["database"],
+		"author": "Colin Miller",
+		"description": "A simple NoSQL client for Android. Meant as a document store using key/value pairs and some rudimentary querying. Useful for avoiding the hassle of SQL code.",
+		"github_url": "https://github.com/Jearil/SimpleNoSQL"
+	},
+	{
+		"title": "Android Checkout Library",
+		"tags": ["internet"],
+		"author": "Sergey Solovyev",
+		"description": "Checkout is a library for Android In-App Billing (v3). The main goal is to reduce work which should be done by developers who want to integrate in-app purchases in their products. The project is inspired by Volley library and is designed to be easy to use, fast and flexible.",
+		"github_url": "https://github.com/serso/android-checkout"
+	},
+	{
+		"title": "Pixel Dungeon",
+		"tags": ["sample app"],
+		"author": "Watabou",
+		"description": "Traditional roguelike game with pixel-art graphics and simple interface.",
+		"github_url": "https://github.com/watabou/pixel-dungeon"
+	},
+	{
+		"title": "Lint Cleaner Plugin",
+		"tags": ["tool"],
+		"author": "Marco Rodriguez-Suarez",
+		"description": "A Gradle Plugin for removing unused resources in Android projects.",
+		"github_url": "https://github.com/marcoRS/lint-cleaner-plugin"
 	}
 
 ];
