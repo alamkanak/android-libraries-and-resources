@@ -1710,6 +1710,70 @@ BSD, iOS and Android.",
 		"author": "Marco Rodriguez-Suarez",
 		"description": "A Gradle Plugin for removing unused resources in Android projects.",
 		"github_url": "https://github.com/marcoRS/lint-cleaner-plugin"
+	},
+	{
+		"title": "Android Swipe Layout",
+		"tags": ["adapter view", "animation"],
+		"author": "daimajia",
+		"description": "The best Android Swipe Layout. This is the brother of AndroidViewHover.",
+		"github_url": "https://github.com/daimajia/AndroidSwipeLayout"
+	},
+	{
+		"title": "Android View Animations",
+		"tags": ["view", "animation"],
+		"author": "daimajia",
+		"description": "Cute view animation collection.",
+		"github_url": "https://github.com/daimajia/AndroidViewAnimations"
+	},
+	{
+		"title": "f8 app",
+		"tags": ["sample app"],
+		"author": "Parse",
+		"description": "This is the entire source code of the official f8 apps, available on the App Store as well as on Google Play.",
+		"github_url": "https://github.com/ParsePlatform/f8DeveloperConferenceApp"
+	},
+	{
+		"title": "Simple XML Serialization",
+		"tags": ["parse"],
+		"author": "Niall Gallagher",
+		"description": "Simple is a high performance XML serialization and configuration framework for Java. Its goal is to provide an XML framework that enables rapid development of XML configuration and communication systems. This framework aids the development of XML systems with minimal effort and reduced errors. It offers full object serialization and deserialization, maintaining each reference encountered. In essence it is similar to C# XML serialization for the Java platform, but offers additional features for interception and manipulation. ",
+		"home_url": "http://simple.sourceforge.net"
+	},
+	{
+		"title": "Android Floating Label Widgets",
+		"tags": ["view"],
+		"author": "MarvinLabs",
+		"description": "A set of input widgets with a hint label that floats when input is not empty.",
+		"github_url": "https://github.com/marvinlabs/android-floatinglabel-widgets",
+		"home_url": "http://marvinlabs.github.io/android-floatinglabel-widgets"
+	},
+	{
+		"title": "SnackBar",
+		"tags": ["view", "notification"],
+		"author": "MrEngineer13",
+		"description": "Toast-like alert pattern for Android inspired by the Google Material Design Spec.",
+		"github_url": "https://github.com/MrEngineer13/SnackBar"
+	},
+	{
+		"title": "dspec",
+		"tags": ["tool"],
+		"author": "Lucas Rocha",
+		"description": "A simple way to define and render UI specs on top of your Android UI.",
+		"github_url": "https://github.com/lucasr/dspec"
+	},
+	{
+		"title": "twoway-view",
+		"tags": ["adapter view"],
+		"author": "Lucas Rocha",
+		"description": "An AdapterView with support for vertical and horizontal scrolling. The ultimate utility belt for Android's RecyclerView.",
+		"github_url": "https://github.com/lucasr/twoway-view"
+	},
+	{
+		"title": "smoothie",
+		"tags": ["asynchronous", "adapter view"],
+		"author": "Lucas Rocha",
+		"description": "Easy async loading for Android's ListView/GridView.",
+		"github_url": "https://github.com/lucasr/smoothie"
 	}
 
 ];
