@@ -1774,6 +1774,57 @@ BSD, iOS and Android.",
 		"author": "Lucas Rocha",
 		"description": "Easy async loading for Android's ListView/GridView.",
 		"github_url": "https://github.com/lucasr/smoothie"
+	},
+	{
+		"title": "Realm",
+		"tags": ["database", "orm"],
+		"author": "Realm",
+		"description": "Realm is a mobile database: a replacement for SQLite & Core Data. Realm can save you thousands of lines of code & weeks of work, and lets you craft amazing new user experiences.",
+		"github_url": "https://github.com/realm/realm-java",
+		"home_url": "http://realm.io"
+	},
+	{
+		"title": "Bolts",
+		"tags": ["asynchronous", "task"],
+		"author": "BoltsFramework",
+		"description": "Bolts is a collection of low-level libraries designed to make developing mobile apps easier. Bolts was designed by Parse and Facebook for our own internal use, and we have decided to open source these libraries to make them available to others. Using these libraries does not require using any Parse services. Nor do they require having a Parse or Facebook developer account.",
+		"github_url": "https://github.com/BoltsFramework/Bolts-Android",
+		"home_url": "http://boltsframework.github.io/docs/android"
+	},
+	{
+		"title": "Android Week View",
+		"tags": ["view", "time"],
+		"author": "Raquib-ul-Alam (Kanak)",
+		"description": "Android Week View is an android library to display calendars (week view or day view) within the app. It supports custom styling.",
+		"github_url": "https://github.com/alamkanak/Android-Week-View"
+	},
+	{
+		"title": "android-ui",
+		"tags": ["animation", "view"],
+		"author": "Markus Hi",
+		"description": "Android library for UI components with Android Lollipop animations.",
+		"github_url": "https://github.com/markushi/android-ui"
+	},
+	{
+		"title": "PostOffice",
+		"tags": ["dialog", "fragment"],
+		"author": "Drew Heavner",
+		"description": "This is a library for easily constructing Holo and Material Design Dialogs in either Light or Dark modes, and are completely styleable and customizable.",
+		"github_url": "https://github.com/r0adkll/PostOffice"
+	},
+	{
+		"title": "Jams Music Player",
+		"tags": ["sample app"],
+		"author": "Saravan Pantham",
+		"description": "Jams is a free, powerful and elegant music player for Android. Jams used to be a trial/paid app on the Play Store. Due to my lack of adequate free time and Google's new requirement for paid developers to publicly display their home address, I've decided that I can no longer provide the level of support and regular updates that paid users expect from a developer.",
+		"github_url": "https://github.com/psaravan/JamsMusicPlayer"
+	},
+	{
+		"title": "FloatingActionButton",
+		"tags": ["view", "animation"],
+		"author": "Base",
+		"description": "Floating Action Button for Android based on Material Design specification.",
+		"github_url": "https://github.com/futuresimple/android-floating-action-button"
 	}
 
 ];
