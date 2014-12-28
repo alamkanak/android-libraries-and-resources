@@ -2675,6 +2675,101 @@ var items = [
         "author": "Flávio Faria",
         "description": "Android library that provides an extension to ImageView that creates an immersive experience by animating its drawable using the Ken Burns Effect.",
         "github_url": "https://github.com/flavioarfaria/KenBurnsView"
+    },
+    {
+        "title": "JSON To Java",
+        "tags": [
+            "tool",
+            "parse"
+        ],
+        "author": "Jon F Hancock",
+        "description": "JSON To Java as a Service (JTJaaS) is intended to lighten the burden of java developers who need to create POJOs to parallel a JSON API.",
+        "home_url": "http://jsontojava.appspot.com",
+        "github_url": "https://github.com/jonfhancock/JsonToJava"
+    },
+    {
+        "title": "android-proguard-snippets",
+        "tags": [
+            "utility",
+            "tool"
+        ],
+        "author": "Kevin Schultz",
+        "description": "Example Proguard configurations for common Android libraries",
+        "github_url": "https://github.com/krschultz/android-proguard-snippets"
+    },
+    {
+        "title": "material palette",
+        "tags": [
+            "tool"
+        ],
+        "author": "",
+        "description": "A tool for choosing colors for apps with material designs.",
+        "home_url": "http://www.materialpalette.com"
+    },
+    {
+        "title": "RippleEffect",
+        "tags": [
+            "animation",
+            "view"
+        ],
+        "author": "Robin Chutaux",
+        "description": "Implementation of Ripple effect from Material Design for Android API 9+",
+        "github_url": "https://github.com/traex/RippleEffect"
+    },
+    {
+        "title": "MaterialEditText",
+        "tags": [
+            "view"
+        ],
+        "author": "扔物线",
+        "description": "EditText in Material Design",
+        "github_url": "https://github.com/rengwuxian/MaterialEditText"
+    },
+    {
+        "title": "MaterialNavigationDrawer",
+        "tags": [
+            "animation"
+        ],
+        "author": "Fabio Biola",
+        "description": "Navigation Drawer Activity with material design style and simplified methods.",
+        "github_url": "https://github.com/neokree/MaterialNavigationDrawer"
+    },
+    {
+        "title": "Material-ish Progress",
+        "tags": [
+            "progress"
+        ],
+        "author": "pnikosis",
+        "description": "A material style progress wheel compatible with 2.3",
+        "github_url": "https://github.com/pnikosis/materialish-progress"
+    },
+    {
+        "title": "Android-ObservableScrollView",
+        "tags": [
+            "adapter view",
+            "animation"
+        ],
+        "author": "Soichiro Kashima",
+        "description": "Android library to observe scroll events on scrollable views.",
+        "github_url": "https://github.com/ksoichiro/Android-ObservableScrollView"
+    },
+    {
+        "title": "List of Android UI/UX Libraries",
+        "tags": [
+            "library collection"
+        ],
+        "author": "Daichi Furiya",
+        "description": "A curated list of awesome Android UI/UX libraries.",
+        "github_url": "https://github.com/wasabeef/awesome-android-ui"
+    },
+    {
+        "title": "List of Android Libraries",
+        "tags": [
+            "library collection"
+        ],
+        "author": "Daichi Furiya",
+        "description": "This is an alphabetical list of libraries for Android development, the majority being actively maintained.",
+        "github_url": "https://github.com/wasabeef/awesome-android-libraries"
     }
 ];
 
