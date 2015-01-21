@@ -2770,6 +2770,52 @@ var items = [
         "author": "Daichi Furiya",
         "description": "This is an alphabetical list of libraries for Android development, the majority being actively maintained.",
         "github_url": "https://github.com/wasabeef/awesome-android-libraries"
+    },
+    {
+        "title": "CircleIndicator",
+        "tags": [
+            "view"
+        ],
+        "author": "relex",
+        "description": "A lightweight viewpager indicator like in nexus 5 launcher.",
+        "github_url": "https://github.com/ongakuer/CircleIndicator"
+    },
+    {
+        "title": "White House for Android mobile application",
+        "tags": [
+            "sample app"
+        ],
+        "author": "The White House",
+        "description": "A native Android (Java) app designed to fetch, cache, and display multiple feeds containing articles, photos, and live and on demand video. These are displayed in a web view. Includes support for push notifications.",
+        "github_url": "https://github.com/whitehouse/wh-app-android"
+    },
+    {
+        "title": "FloatingLabelLayout",
+        "tags": [
+            "view",
+            "animation"
+        ],
+        "author": "Chris Banes",
+        "description": "A replacement for EditText which supports label animations.",
+        "github_url": "https://gist.github.com/chrisbanes/11247418"
+    },
+    {
+        "title": "Telegram messenger for Android",
+        "tags": [
+            "sample app"
+        ],
+        "author": "DrKLO",
+        "description": "Telegram is a messaging app with a focus on speed and security. It’s superfast, simple and free. This repo contains the official source code for Telegram App for Android.",
+        "github_url": "https://github.com/DrKLO/Telegram"
+    },
+    {
+        "title": "Telecine",
+        "tags": [
+            "sample app"
+        ],
+        "author": "Jake Wharton",
+        "description": "Record full-resolution video on your Android devices.",
+        "github_url": "https://github.com/JakeWharton/Telecine"
     }
 ];
 
